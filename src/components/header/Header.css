@@ -1,0 +1,93 @@
+.header {
+  display: flex;
+  padding: 10px 0px;
+}
+
+.icon {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+.titulo {
+  padding-left: 10px;
+  font-size: 20px;
+}
+.pest {
+  width: 40%;
+}
+.enlaces {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.navbar > li {
+  cursor: pointer;
+  display: block;
+  display: flex;
+  align-items: center;
+}
+.cursos:hover > .submenu1 {
+  display: block;
+  width: 200px;
+  height: max-content;
+  padding: 5px;
+
+  border-radius: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cursos:hover > .submenu1 li {
+  display: block;
+  padding: 10px 5px;
+}
+/* SUBMENU*/
+.submenu1,
+.submenu2 {
+  height: 0px;
+  width: 0px;
+  position: absolute;
+  list-style: none;
+  transition: 0.3s;
+  top: 50px;
+  background-color: #ffff;
+}
+.submenu1 > li:hover {
+  background-color: aqua;
+}
+.submenu1 > li {
+  display: none;
+}
+.submenu1 > li:not(:last-child) {
+  border-bottom: solid grey 1px;
+}
+p > span {
+  padding-top: 8px;
+}
+.buttons {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+.login {
+  padding: 20px 10px;
+  border-radius: 0.5em;
+  border: none;
+  transition: 0.4s;
+}
+.login:hover {
+  background-color: rgb(0, 161, 241);
+  cursor: pointer;
+  color: white;
+}
