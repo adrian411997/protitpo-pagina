@@ -110,13 +110,4 @@ p > span {
   }
 }
 
-@keyframes fadeOut {
-  from {
-    opacity: 1;
-    background-color: aqua;
-  }
-  to {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-}
+
