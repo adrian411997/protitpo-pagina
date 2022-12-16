@@ -2,7 +2,6 @@
   display: flex;
   padding: 10px 0px;
 }
-
 .icon {
   width: 30%;
   display: flex;
@@ -30,46 +29,55 @@
   width: 100%;
   justify-content: space-around;
 }
-
 .navbar > li {
   cursor: pointer;
   display: block;
   display: flex;
   align-items: center;
 }
-.cursos:hover > .submenu1 {
-  display: block;
-  width: 200px;
-  height: max-content;
-  padding: 5px;
 
-  border-radius: 0.5em;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-.cursos:hover > .submenu1 li {
+/* DESPLIEGUE DEL SUBMENU */
+
+li:hover > .submenu > li {
   display: block;
   padding: 10px 5px;
 }
+
+li:hover > .submenu {
+  display: block;
+  padding: 5px;
+  width: 200px;
+  height: max-content;
+  border-radius: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  animation: fadeInUp 0.5s;
+}
+
 /* SUBMENU*/
-.submenu1,
-.submenu2 {
-  height: 0px;
-  width: 0px;
+
+.submenu > li:hover {
+  background-color: grey;
+}
+.submenu {
+  animation: fadeOut 0.5s;
   position: absolute;
   list-style: none;
-  transition: 0.3s;
+  width: 0px;
+  height: 0px;
+  height: max-content;
   top: 50px;
   background-color: #ffff;
 }
-.submenu1 > li:hover {
-  background-color: aqua;
-}
-.submenu1 > li {
+.submenu > li {
   display: none;
+  border-radius: 0.5em;
 }
-.submenu1 > li:not(:last-child) {
-  border-bottom: solid grey 1px;
+/* SVG ICON DROPDOWN */
+li:hover > svg {
+  transform: rotateX(180deg);
+  transition: 0.5s;
 }
+
 p > span {
   padding-top: 8px;
 }
@@ -90,4 +98,25 @@ p > span {
   background-color: rgb(0, 161, 241);
   cursor: pointer;
   color: white;
+}
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    background-color: aqua;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
 }
