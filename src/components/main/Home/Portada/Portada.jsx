@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "../header/Header";
-import emocion from "../images/emocion.png";
+import Header from "../../../header/Header";
+import emocion from "../../../images/emocion.png";
 import "./Portada.css";
 const Portada = () => {
   return (
-    <>
+    <div className="welcomePart">
       <Header />
       <div className="content">
         <div className="portada">
@@ -22,7 +22,7 @@ const Portada = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

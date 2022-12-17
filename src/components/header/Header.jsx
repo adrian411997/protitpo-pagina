@@ -1,10 +1,21 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Header.css";
 import logo from "../images/l.png";
 
 const Header = () => {
+  const [sticky, setSticky] = useState("");
+  const toSticky = () => {
+    if (document.documentElement.scrollTop !== 0) {
+      setSticky("sticky");
+    } else {
+      setSticky("notSticky");
+    }
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", toSticky);
+  }, []);
   return (
-    <div className="header">
+    <div className={`header ${sticky}`}>
       <div className="icon">
         <img src={logo} alt="instagram" width={60} height={60} />
         <p className="titulo">Métrica</p>
