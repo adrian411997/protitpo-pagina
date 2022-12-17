@@ -4,10 +4,10 @@
 
 .ServiciosPart {
   background-color: #fff;
-  height: 100vh;
+  height: 70vh;
 }
 /*--------------------------------------------------------------
-# CONTENT
+# SERVICE WEB PART
 --------------------------------------------------------------*/
 .container {
   width: 80%;
@@ -46,7 +46,7 @@
 }
 
 /*--------------------------------------------------------------
-# IMAGES 
+# IMAGES - WEB PART
 --------------------------------------------------------------*/
 .trabajo,
 .nerd,
@@ -66,19 +66,38 @@
   top: -45px;
   right: 150px;
 }
+/*--------------------------------------------------------------
+# Security Part
+--------------------------------------------------------------*/
+
+.security-service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.img-security-content {
+  text-align: left;
+  padding-left: 20px;
+  position: relative;
+  visibility: visible;
+  animation: fadeInRight 1s ease-in-out;
+}
+.text-security-content {
+  margin-left: 100px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: fadeInLeft 1s ease-in-out;
+}
 
 /*--------------------------------------------------------------
-# Animations
+# HIDDEN SETTINGS
 --------------------------------------------------------------*/
-@keyframes fadeInLeft {
-  from {
-    opacity: 0;
-    transform: translateX(-100px);
-  }
-  to {
-    opacity: 1;
-  }
-}
+
 .hidden-img-content {
   width: 50%;
   text-align: right;
@@ -89,6 +108,21 @@
 .hidden-text {
   visibility: hidden;
 }
+
+/*--------------------------------------------------------------
+# Animations
+--------------------------------------------------------------*/
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 @keyframes fadeInRight {
   from {
     opacity: 0;
