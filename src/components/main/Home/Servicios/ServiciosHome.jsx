@@ -9,7 +9,6 @@ const ServiciosHome = () => {
   const [imgContent, setImgContent] = useState("hidden-img-content");
   const [text, setText] = useState("hidden-text");
   const handleAnimation = () => {
-    console.log(console.log(document.documentElement.scrollTop));
     if (document.documentElement.scrollTop >= 500) {
       setImgContent("image-content");
       setText("text");
@@ -18,7 +17,6 @@ const ServiciosHome = () => {
       setText("hidden-text");
     }
   };
-  console.log(document.documentElement.scrollTop);
   useEffect(() => {
     window.addEventListener("scroll", handleAnimation);
   }, []);

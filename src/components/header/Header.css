@@ -109,5 +109,40 @@ p > span {
     opacity: 1;
   }
 }
+@keyframes boxShadow {
+  0% {
+    background: transparent;
+    box-shadow: 0;
+  }
+  100% {
+    background-color: white;
+    box-shadow: 20px 15px 5px -15px #111;
+  }
+}
 
-
+@keyframes toTransparent {
+  0% {
+    background-color: white;
+    box-shadow: 20px 15px 5px -15px #111;
+  }
+  100% {
+    background: transparent;
+    box-shadow: 0;
+  }
+}
+/*--------------------------------------------------------------
+# HEADER STICKY 
+--------------------------------------------------------------*/
+.notSticky {
+  box-shadow: 0;
+  background: transparent;
+  animation: toTransparent 0.5s ease-in-out;
+}
+.sticky {
+  background-color: white;
+  animation: boxShadow 0.5s ease-in-out;
+  box-shadow: -10px 15px 10px -13px #111;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
