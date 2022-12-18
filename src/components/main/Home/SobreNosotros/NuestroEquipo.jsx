@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Header from '../../../header/Header'
 const NuestroEquipo = () => {
   return (
-    <div>NuestroEquipo</div>
+    <><Header/></>
   )
 }
 
