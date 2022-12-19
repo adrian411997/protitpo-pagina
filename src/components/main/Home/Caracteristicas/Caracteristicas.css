@@ -1,0 +1,48 @@
+.char-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.char-pamodificar {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+}
+.char {
+  margin-top: 20px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 0.5em;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+}
+.char-image {
+  padding: 10px 5px;
+}
+.char-text {
+  text-align: center;
+  padding: 20px 30px;
+  line-height: 1.6;
+}
+.char-title {
+  text-align: center;
+}
+.flip {
+  animation: flipFade 1s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes flipFade {
+  from {
+    opacity: 0;
+    transform: rotateY(180deg);
+  }
+  to {
+    opacity: 1;
+  }
+}
