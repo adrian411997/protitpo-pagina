@@ -1,4 +1,5 @@
 import React from "react";
+import Caracteristicas from "./Caracteristicas/Caracteristicas";
 import Portada from "./Portada/Portada";
 import ServiciosHome from "./Servicios/ServiciosHome";
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <>
       <Portada />
       <ServiciosHome />
+      <Caracteristicas />
     </>
   );
 };
