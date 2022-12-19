@@ -4,24 +4,39 @@
 
 .ServiciosPart {
   background-color: #fff;
-  height: 70vh;
+
+  position: relative;
+}
+.entryTitulo {
+  text-align: center;
+  padding-top: 20px;
+}
+.content-pamodificar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 /*--------------------------------------------------------------
 # SERVICE WEB PART
 --------------------------------------------------------------*/
 .container {
   width: 80%;
-  height: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
 }
 .content-services {
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-right: dashed 5px rgb(40, 146, 168);
+  border-bottom: dashed 5px rgb(40, 146, 168);
 }
 .image-content {
   width: 50%;
-  text-align: right;
+  text-align: center;
   padding-right: 20px;
   position: relative;
   visibility: visible;
@@ -32,7 +47,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   animation: fadeInRight 1s ease-in-out;
 }
 .text-title,
@@ -55,16 +70,16 @@
 }
 
 .trabajo {
-  right: 260px;
+  left: 180px;
   bottom: -15px;
 }
 .nerd {
-  right: 30px;
+  right: 200px;
   bottom: 0px;
 }
 .stonks {
   top: -45px;
-  right: 150px;
+  left: 330px;
 }
 /*--------------------------------------------------------------
 # Security Part
@@ -75,6 +90,8 @@
   justify-content: center;
   align-items: center;
   height: 100%;
+  border-left: dashed 5px rgb(40, 146, 168);
+  border-bottom: dashed 5px rgb(40, 146, 168);
 }
 
 .img-security-content {
@@ -85,7 +102,6 @@
   animation: fadeInRight 1s ease-in-out;
 }
 .text-security-content {
-  margin-left: 100px;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -94,6 +110,34 @@
   animation: fadeInLeft 1s ease-in-out;
 }
 
+/*--------------------------------------------------------------
+# INFRAESTRUCTURA Part
+--------------------------------------------------------------*/
+
+.infra-content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: dashed 5px rgb(40, 146, 168);
+}
+.image-infra-content {
+  width: 50%;
+  text-align: center;
+  padding-right: 20px;
+  position: relative;
+  visibility: visible;
+  animation: fadeInLeft 1s ease-in-out;
+}
+.text-infra-content {
+  margin-left: 100px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  animation: fadeInRight 1s ease-in-out;
+}
 /*--------------------------------------------------------------
 # HIDDEN SETTINGS
 --------------------------------------------------------------*/
