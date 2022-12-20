@@ -1,3 +1,6 @@
+.caract-space {
+  padding-bottom: 50px;
+}
 .char-content {
   display: flex;
   flex-direction: column;
