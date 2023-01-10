@@ -15,8 +15,8 @@ const Footer = () => {
               <h3>METRICA</h3>
             </div>
             <div className="footer-id-content">
-              Somos una empresa destinada a dar soluciones de software junto con
-              un equipo profesional diversas habildades para un dar excelente
+              Somos una empresa destinada a dar soluciones de software junto a
+              un equipo profesional con diversas habilidades para dar excelentes
               resultados con vistas a expandir nuestras filas{" "}
               <b>¡Pronto incorporaremos mas gente!</b>
             </div>
@@ -27,8 +27,8 @@ const Footer = () => {
                 <b>CONTACTO:</b>
               </h3>
               <div className="email-contact">
-                <a href="mailto:correodeprueba@hotmail.com">
-                  correodeprueba@hotmail.com
+                <a href="mailto:metrica.agenciamkt@gmail.com">
+                metrica.agenciamkt@gmail.com
                 </a>
               </div>
             </div>
