@@ -2,6 +2,7 @@
   display: flex;
   padding: 10px 0px;
   border: none;
+  color: white;
 }
 .icon {
   width: 30%;
@@ -12,7 +13,7 @@
 }
 .titulo {
   padding-left: 10px;
-  font-size: 20px;
+  font-size: 30px;
 }
 .pest {
   width: 40%;
@@ -147,4 +148,8 @@ p > span {
   top: 0;
   width: 100%;
   z-index: 2;
+  color: black;
+}
+.sticky > .pest > .enlaces > .navbar > li > svg {
+  fill: black;
 }
