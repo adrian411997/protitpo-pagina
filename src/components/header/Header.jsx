@@ -64,9 +64,10 @@ const Header = () => {
           </ul>
         </div>
       </div>
+      {/*
       <div className="buttons">
         <button className="login">Iniciar Sesion</button>
-      </div>
+  </div>*/}
     </div>
   );
 };
