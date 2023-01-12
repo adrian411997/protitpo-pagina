@@ -1,6 +1,5 @@
 import { useRouteError } from "react-router-dom";
 import Header from "../../header/Header";
-import notFound from "../../images/notfound.jpg";
 import "./notFound.css";
 import { Link } from "react-router-dom";
 
@@ -13,7 +12,14 @@ const NotFound = () => {
       <Header />
       <div className="notfound-container">
         <div className="notfound-content">
-          <img src={notFound} alt="notfound" width={700} height={500} />
+          <img
+            src={
+              "https://res.cloudinary.com/dni5cjwpu/image/upload/v1673546430/metrica/004_jioug9.jpg"
+            }
+            alt="notfound"
+            width={700}
+            height={500}
+          />
           <h2>Upss, camino equivocado, retome su recorrido desde el inicio!</h2>
           <Link to="/">
             <button className="button-back">Regresar</button>

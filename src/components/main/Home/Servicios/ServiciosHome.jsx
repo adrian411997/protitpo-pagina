@@ -1,11 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./ServiciosHome.css";
-import webpage from "../../../images/webpage1.png";
-import trabajo from "../../../images/trabajo.png";
-import nerd from "../../../images/nerd.png";
-import stonks from "../../../images/stonks.png";
-import security from "../../../images/security.png";
-import infraestructura from "../../../images/infraestructura.png";
 
 const ServiciosHome = () => {
   const [imgContent, setImgContent] = useState("hidden-img-content");
@@ -55,24 +49,37 @@ const ServiciosHome = () => {
         <div className="container">
           <div className="content-services">
             <div className={imgContent}>
-              <img src={webpage} alt="webpage" width={350} height={350} />
+              <img
+                src={
+                  "https://res.cloudinary.com/dni5cjwpu/image/upload/v1673546467/metrica/webpage1_dp70bu.png"
+                }
+                alt="webpage"
+                width={350}
+                height={350}
+              />
               <img
                 className="trabajo"
-                src={trabajo}
+                src={
+                  "https://res.cloudinary.com/dni5cjwpu/image/upload/v1673546467/metrica/trabajo_ag0kon.png"
+                }
                 alt="trabajo"
                 width={125}
                 height={125}
               />
               <img
                 className="nerd"
-                src={nerd}
+                src={
+                  "https://res.cloudinary.com/dni5cjwpu/image/upload/v1673546464/metrica/nerd_aepetx.png"
+                }
                 alt="nerd"
                 width={100}
                 height={100}
               />
               <img
                 className="stonks"
-                src={stonks}
+                src={
+                  "https://res.cloudinary.com/dni5cjwpu/image/upload/v1673546467/metrica/stonks_yqmkqj.png"
+                }
                 alt="nerd"
                 width={90}
                 height={90}
@@ -112,7 +119,14 @@ const ServiciosHome = () => {
               </div>
             </div>
             <div className={secur}>
-              <img src={security} alt="seguridad" width={550} height={350} />
+              <img
+                src={
+                  "https://res.cloudinary.com/dni5cjwpu/image/upload/v1673546465/metrica/security_hxst2s.png"
+                }
+                alt="seguridad"
+                width={550}
+                height={350}
+              />
             </div>
           </div>
         </div>
@@ -120,7 +134,9 @@ const ServiciosHome = () => {
           <div className="infra-content">
             <div className={infraImage}>
               <img
-                src={infraestructura}
+                src={
+                  "https://res.cloudinary.com/dni5cjwpu/image/upload/v1673546462/metrica/infraestructura_s5b2mr.png"
+                }
                 alt="webpage"
                 width={350}
                 height={350}

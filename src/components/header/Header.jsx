@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Header.css";
-import logo from "../images/l.png";
+
 import { Link } from "react-router-dom";
 const Header = () => {
   const [sticky, setSticky] = useState("");
@@ -17,7 +17,14 @@ const Header = () => {
   return (
     <div className={`header ${sticky}`}>
       <div className="icon">
-        <img src={logo} alt="instagram" width={60} height={60} />
+        <img
+          src={
+            "https://res.cloudinary.com/dni5cjwpu/image/upload/v1673546464/metrica/l_ezhdp9.png"
+          }
+          alt="instagram"
+          width={60}
+          height={60}
+        />
         <p className="titulo">
           <Link to="/">Métrica</Link>
         </p>

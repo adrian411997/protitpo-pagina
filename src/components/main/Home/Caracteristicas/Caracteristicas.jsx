@@ -1,12 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./Caracteristicas.css";
-import eficiencia from "../../../images/eficiencia.png";
-import mas from "../../../images/mas.png";
-import seg from "../../../images/seg.png";
-import responsabilidad from "../../../images/responsabilidad.png";
-import compromiso from "../../../images/compromiso.png";
-import Servicio from "../../../images/service.png";
-import like from "../../../images/megusta.png";
 
 const Caracteristicas = () => {
   const [flip, setFlip] = useState("");
@@ -30,9 +23,27 @@ const Caracteristicas = () => {
           <div className="char-pamodificar">
             <div className={`char ${flip}`}>
               <div className="char-image">
-                <img src={eficiencia} alt="eficiencia" width={150} />
-                <img src={mas} alt="" width={50} />
-                <img src={seg} alt="" width={150} />
+                <img
+                  src={
+                    "https://res.cloudinary.com/dni5cjwpu/image/upload/v1673546468/metrica/eficiencia_pelkct.png"
+                  }
+                  alt="eficiencia"
+                  width={150}
+                />
+                <img
+                  src={
+                    "https://res.cloudinary.com/dni5cjwpu/image/upload/v1673546464/metrica/mas_gx7anw.png"
+                  }
+                  alt=""
+                  width={50}
+                />
+                <img
+                  src={
+                    "https://res.cloudinary.com/dni5cjwpu/image/upload/v1673546466/metrica/seg_kxzctj.png"
+                  }
+                  alt=""
+                  width={150}
+                />
               </div>
               <div className="char-writing">
                 <div className="char-title">
@@ -48,9 +59,27 @@ const Caracteristicas = () => {
             </div>
             <div className={`char ${flip}`}>
               <div className="char-image">
-                <img src={responsabilidad} alt="eficiencia" width={150} />
-                <img src={mas} alt="" width={50} />
-                <img src={compromiso} alt="" width={150} />
+                <img
+                  src={
+                    "https://res.cloudinary.com/dni5cjwpu/image/upload/v1673546465/metrica/responsabilidad_dvhz5r.png"
+                  }
+                  alt="eficiencia"
+                  width={150}
+                />
+                <img
+                  src={
+                    "https://res.cloudinary.com/dni5cjwpu/image/upload/v1673546464/metrica/mas_gx7anw.png"
+                  }
+                  alt=""
+                  width={50}
+                />
+                <img
+                  src={
+                    "https://res.cloudinary.com/dni5cjwpu/image/upload/v1673546467/metrica/compromiso_myou0n.png"
+                  }
+                  alt=""
+                  width={150}
+                />
               </div>
               <div className="char-writing">
                 <div className="char-title">
@@ -66,8 +95,20 @@ const Caracteristicas = () => {
             </div>
             <div className={`char ${flip}`}>
               <div className="char-image">
-                <img src={Servicio} alt="eficiencia" width={200} />
-                <img src={like} alt="" width={100} />
+                <img
+                  src={
+                    "https://res.cloudinary.com/dni5cjwpu/image/upload/v1673546469/metrica/service_zejnq8.png"
+                  }
+                  alt="eficiencia"
+                  width={200}
+                />
+                <img
+                  src={
+                    "https://res.cloudinary.com/dni5cjwpu/image/upload/v1673546465/metrica/megusta_xrc627.png"
+                  }
+                  alt=""
+                  width={100}
+                />
               </div>
               <div className="char-writing">
                 <div className="char-title">
