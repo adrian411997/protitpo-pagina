@@ -1,0 +1,49 @@
+.notfound-container {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notfound-content {
+  width: 80%;
+  padding: 50px 0px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.notfound-content > h2 {
+  margin: 30px 0px;
+}
+.button-back {
+  border: none;
+  font-size: 15px;
+  padding: 20px 50px;
+  border-radius: 1em;
+  cursor: pointer;
+}
+.button-back:hover {
+  animation: changeColorOnHover 0.5s ease-in-out;
+  background-color: #79f586;
+}
+.button-back:not(hover) {
+  background-color: rgb(240, 240, 240);
+  animation: changeColorOffHover 0.5s ease-in-out;
+}
+@keyframes changeColorOnHover {
+  from {
+    background-color: rgb(240, 240, 240);
+  }
+  to {
+    background-color: #79f586;
+  }
+}
+@keyframes changeColorOffHover {
+  from {
+    background-color: #79f586;
+  }
+  to {
+    background-color: rgb(240, 240, 240);
+  }
+}
