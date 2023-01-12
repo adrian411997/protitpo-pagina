@@ -50,7 +50,7 @@ const Footer = () => {
                   >
                     <img
                       src={
-                        "https://res.cloudinary.com/dni5cjwpu/image/upload/v1673546463/metrica/insta_qx22sj.pngs"
+                        "https://res.cloudinary.com/dni5cjwpu/image/upload/v1673546463/metrica/insta_qx22sj.png"
                       }
                       width={30}
                       alt="instagram"
