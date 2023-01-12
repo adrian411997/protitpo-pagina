@@ -1,13 +1,6 @@
 body {
   font-family: "CustomFont";
-  background-image: linear-gradient(
-    175deg,
-    #aeffff 0,
-    #78e6ff 25%,
-    #0cc1ed 50%,
-    #009dd4 75%,
-    #007fc0 100%
-  );
+
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -18,6 +11,16 @@ body {
 * {
   padding: 0;
   margin: 0;
+}
+html {
+  background-image: linear-gradient(
+    175deg,
+    #aeffff 0,
+    #78e6ff 25%,
+    #0cc1ed 50%,
+    #009dd4 75%,
+    #007fc0 100%
+  );
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
