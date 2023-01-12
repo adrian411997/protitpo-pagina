@@ -21,6 +21,8 @@ html {
     #009dd4 75%,
     #007fc0 100%
   );
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
