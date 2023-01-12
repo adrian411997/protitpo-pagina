@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../../header/Header";
-import emocion from "../../../images/emocion.png";
+
 import "./Portada.css";
 const Portada = () => {
   return (
@@ -18,7 +18,12 @@ const Portada = () => {
             </div>
           </div>
           <div className="image">
-            <img src={emocion} alt="emocion" />
+            <img
+              src={
+                "https://res.cloudinary.com/dni5cjwpu/image/upload/v1673546471/metrica/emocion_mb55ev.png"
+              }
+              alt="emocion"
+            />
           </div>
         </div>
       </div>

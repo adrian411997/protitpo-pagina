@@ -1,8 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import logo from "../images/l.png";
-import insta from "../images/insta.png";
-import linkedin from "../images/linkedin.png";
 
 const Footer = () => {
   return (
@@ -11,7 +8,13 @@ const Footer = () => {
         <div className="footer-content">
           <div className="column">
             <div className="footer-id">
-              <img src={logo} alt="logo" width={100} />
+              <img
+                src={
+                  "https://res.cloudinary.com/dni5cjwpu/image/upload/v1673546464/metrica/l_ezhdp9.png"
+                }
+                alt="logo"
+                width={100}
+              />
               <h3>METRICA</h3>
             </div>
             <div className="footer-id-content">
@@ -28,7 +31,7 @@ const Footer = () => {
               </h3>
               <div className="email-contact">
                 <a href="mailto:metrica.agenciamkt@gmail.com">
-                metrica.agenciamkt@gmail.com
+                  metrica.agenciamkt@gmail.com
                 </a>
               </div>
             </div>
@@ -45,7 +48,13 @@ const Footer = () => {
                     target={"_blank"}
                     rel="noreferrer"
                   >
-                    <img src={insta} width={30} alt="instagram" />
+                    <img
+                      src={
+                        "https://res.cloudinary.com/dni5cjwpu/image/upload/v1673546463/metrica/insta_qx22sj.pngs"
+                      }
+                      width={30}
+                      alt="instagram"
+                    />
                   </a>
                 </button>
                 <button className="btn-link">
@@ -54,7 +63,13 @@ const Footer = () => {
                     target={"_blank"}
                     rel="noreferrer"
                   >
-                    <img src={linkedin} width={20} alt="instagram" />
+                    <img
+                      src={
+                        "https://res.cloudinary.com/dni5cjwpu/image/upload/v1673546463/metrica/linkedin_ijjxfn.png"
+                      }
+                      width={20}
+                      alt="instagram"
+                    />
                   </a>
                 </button>
               </div>
