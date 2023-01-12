@@ -31,6 +31,7 @@
   background-color: rgb(240, 240, 240);
   animation: changeColorOffHover 0.5s ease-in-out;
 }
+
 @keyframes changeColorOnHover {
   from {
     background-color: rgb(240, 240, 240);

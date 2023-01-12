@@ -25,7 +25,7 @@ const SitiosWeb = () => {
             </p>
           </div>
           <div className="elements">
-            <div className="element">
+            <div className="element first">
               <button className="not-button">
                 <svg
                   fill="#000000"
@@ -50,7 +50,7 @@ const SitiosWeb = () => {
                 tablet y un celular.
               </div>
             </div>
-            <div className="element">
+            <div className="element second">
               <button className="not-button">
                 <svg width="50px" height="50px" viewBox="0 0 38 32">
                   <g>
@@ -81,14 +81,14 @@ const SitiosWeb = () => {
                   </g>
                 </svg>
               </button>
-              <h1>Diseño Original</h1>
+              <h1>Diseño Original </h1>
               <div>
                 Destacar de la competencia implica hacer la diferencia y
                 nosotros lo hacemos mejor que nadie.
               </div>
             </div>
 
-            <div className="element">
+            <div className="element third">
               <button className="not-button">
                 <svg width="50px" height="50px" viewBox="0 0 24 24" fill="none">
                   <path
@@ -109,7 +109,7 @@ const SitiosWeb = () => {
                 añadir a tu Sitio Web.
               </div>
             </div>
-            <div className="element">
+            <div className="element fourth">
               <button className="not-button">
                 <svg
                   width="50px"
@@ -127,7 +127,7 @@ const SitiosWeb = () => {
                 contacto contigo asi estaran mas cerca de sus clientes.
               </div>
             </div>
-            <div className="element">
+            <div className="element fifth">
               <button className="not-button">
                 <svg width="50px" height="50px" viewBox="0 0 64 64" fill="none">
                   <path
