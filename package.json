@@ -2,7 +2,7 @@
   "name": "prototipopagina",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://adrian411997.github.io/protitpo-pagina",
+  "homepage": "https://adrian411997.github.io/protitpo-pagina/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
