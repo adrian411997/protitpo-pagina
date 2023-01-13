@@ -39,7 +39,7 @@ const NuestroEquipo = () => {
                   alt="fachero"
                 />
               </div>
-              <div className="content">
+              <div className="content-card">
                 <div className="detail">
                   <h2>Daniel Moya</h2>
                   <p>Ceo, Experto en Marketing Digital</p>
@@ -79,7 +79,7 @@ const NuestroEquipo = () => {
                   alt="fachero"
                 />
               </div>
-              <div className="content">
+              <div className="content-card">
                 <div className="detail">
                   <h2>Lucas Flores</h2>
                   <p>Ceo, Programador</p>
@@ -119,7 +119,7 @@ const NuestroEquipo = () => {
                   alt="fachero"
                 />
               </div>
-              <div className="content">
+              <div className="content-card">
                 <div className="detail">
                   <h2>Adrian Martinez</h2>
                   <p>Ceo, Desarrollador Full Stack</p>
@@ -159,7 +159,7 @@ const NuestroEquipo = () => {
                   alt="fachero"
                 />
               </div>
-              <div className="content">
+              <div className="content-card">
                 <div className="detail">
                   <h2>Ricardo Liendro</h2>
                   <p>Diseñador Grafico</p>
