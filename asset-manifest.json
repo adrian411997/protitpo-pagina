@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/protitpo-pagina/static/css/main.7773e41f.css",
-    "main.js": "/protitpo-pagina/static/js/main.114f7b8a.js",
+    "main.css": "/protitpo-pagina/static/css/main.782f3f38.css",
+    "main.js": "/protitpo-pagina/static/js/main.bfd9e720.js",
     "static/js/787.302fb19c.chunk.js": "/protitpo-pagina/static/js/787.302fb19c.chunk.js",
     "static/media/izmir.otf": "/protitpo-pagina/static/media/izmir.d4943ca2e5d23c3d4f76.otf",
     "index.html": "/protitpo-pagina/index.html",
-    "main.7773e41f.css.map": "/protitpo-pagina/static/css/main.7773e41f.css.map",
-    "main.114f7b8a.js.map": "/protitpo-pagina/static/js/main.114f7b8a.js.map",
+    "main.782f3f38.css.map": "/protitpo-pagina/static/css/main.782f3f38.css.map",
+    "main.bfd9e720.js.map": "/protitpo-pagina/static/js/main.bfd9e720.js.map",
     "787.302fb19c.chunk.js.map": "/protitpo-pagina/static/js/787.302fb19c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7773e41f.css",
-    "static/js/main.114f7b8a.js"
+    "static/css/main.782f3f38.css",
+    "static/js/main.bfd9e720.js"
   ]
 }
