@@ -5,7 +5,7 @@ import PlanesMarketing from "./components/main/Home/planes/PlanesMarketing";
 import NotFound from "./components/main/NotFound/notFound";
 import SitiosWeb from "./components/main/Home/planes/SitiosWeb/SitiosWeb";
 import DiseñoGrafico from "./components/main/Home/planes/DiseñoGrafico";
-import NuestroEquipo from "./components/main/Home/SobreNosotros/NuestroEquipo";
+import NuestroEquipo from "./components/main/Home/SobreNosotros/NuestroEquipo/NuestroEquipo";
 
 export const App = createBrowserRouter([
   {
