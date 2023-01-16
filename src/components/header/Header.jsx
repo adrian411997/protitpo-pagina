@@ -33,6 +33,7 @@ const Header = () => {
         <div className="enlaces">
           <ul className="navbar">
             <li>Soluciones</li>
+            {/*
             <li className="cursos">
               Cursos
               <svg width={25} height={25} viewBox="0 0 24 24">
@@ -46,6 +47,7 @@ const Header = () => {
                 <li>Videojuegos</li>
               </ul>
             </li>
+            */}
             <li className="plans">
               Planes
               <svg width={25} height={25} viewBox="0 0 24 24">
@@ -66,8 +68,9 @@ const Header = () => {
                 </li>
               </ul>
             </li>
-
+            {/*
             <li>Recursos gratis</li>
+            */}
             <li className="team">
               Sobre nosotros
               <svg width={25} height={25} viewBox="0 0 24 24">
