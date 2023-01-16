@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.bb4fb912.css",
-    "main.js": "/static/js/main.d075c0a7.js",
-    "static/js/787.302fb19c.chunk.js": "/static/js/787.302fb19c.chunk.js",
-    "static/media/izmir.otf": "/static/media/izmir.d4943ca2e5d23c3d4f76.otf",
-    "index.html": "/index.html",
-    "main.bb4fb912.css.map": "/static/css/main.bb4fb912.css.map",
-    "main.d075c0a7.js.map": "/static/js/main.d075c0a7.js.map",
-    "787.302fb19c.chunk.js.map": "/static/js/787.302fb19c.chunk.js.map"
+    "main.css": "/prototipo-pagina/static/css/main.5cfdb59b.css",
+    "main.js": "/prototipo-pagina/static/js/main.90f34d2c.js",
+    "static/js/787.302fb19c.chunk.js": "/prototipo-pagina/static/js/787.302fb19c.chunk.js",
+    "static/media/izmir.otf": "/prototipo-pagina/static/media/izmir.d4943ca2e5d23c3d4f76.otf",
+    "index.html": "/prototipo-pagina/index.html",
+    "main.5cfdb59b.css.map": "/prototipo-pagina/static/css/main.5cfdb59b.css.map",
+    "main.90f34d2c.js.map": "/prototipo-pagina/static/js/main.90f34d2c.js.map",
+    "787.302fb19c.chunk.js.map": "/prototipo-pagina/static/js/787.302fb19c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb4fb912.css",
-    "static/js/main.d075c0a7.js"
+    "static/css/main.5cfdb59b.css",
+    "static/js/main.90f34d2c.js"
   ]
 }
