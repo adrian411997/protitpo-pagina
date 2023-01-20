@@ -19,15 +19,12 @@ const Header = () => {
       <div className="icon">
         <img
           src={
-            "https://res.cloudinary.com/dni5cjwpu/image/upload/v1673546464/metrica/l_ezhdp9.png"
+            "https://res.cloudinary.com/dni5cjwpu/image/upload/v1674244055/metrica/Recurso_2_t8unvy.png"
           }
           alt="instagram"
-          width={60}
-          height={60}
+          width={150}
+          height={50}
         />
-        <p className="titulo">
-          <Link to="/">Métrica</Link>
-        </p>
       </div>
       <div className="pest">
         <div className="enlaces">
@@ -71,6 +68,7 @@ const Header = () => {
             {/*
             <li>Recursos gratis</li>
             */}
+            <li className="blogs">Blogs</li>
             <li className="team">
               Sobre nosotros
               <svg width={25} height={25} viewBox="0 0 24 24">
@@ -88,10 +86,6 @@ const Header = () => {
           </ul>
         </div>
       </div>
-      {/*
-      <div className="buttons">
-        <button className="login">Iniciar Sesion</button>
-  </div>*/}
     </div>
   );
 };
