@@ -11,7 +11,7 @@
   height: 100%;
 }
 .footer-content > div {
-  width: 33%;
+  width: 50%;
 }
 .footer-content {
   display: flex;
@@ -25,7 +25,12 @@
   padding: 10px 0px;
 }
 .column {
-  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-column {
+  border-left: 1px solid black;
 }
 .footer-id-content {
   line-height: 1.6;
@@ -33,6 +38,7 @@
 }
 .contact {
   padding: 20px 0px;
+  text-align: center;
 }
 .email-contact {
   padding: 30px 0px;
@@ -40,6 +46,12 @@
 .social-buttons {
   padding-top: 10px;
   display: flex;
+  justify-content: center;
+}
+.place,
+.footer-info-contact {
+  padding-bottom: 10px;
+  font-size: 18px;
 }
 .btn {
   border-radius: 50%;
