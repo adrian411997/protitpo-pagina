@@ -1,39 +1,62 @@
 .contact-container {
+  width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 30px 0px;
-  height: 100vh;
+  justify-content: center;
+}
+.contact-content {
+  padding-top: 150px;
+  width: 60%;
+  text-align: center;
+}
+.form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .input {
-  padding: 20px;
-  background-color: rgb(34, 34, 32);
-  color: white;
-  width: 300px;
+  width: 95%;
+  padding: 20px 10px;
+  margin: 10px 0px;
+  border: none;
+  font-size: 15px;
+  border-radius: 0.4em;
+  background-color: rgb(243, 243, 243);
 }
-
-.image-form {
-  width: 50%;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+select {
+  padding: 20px 10px;
+  width: 97%;
+  border-radius: 0.4em;
+  font-size: 15px;
+  margin: 10px 0px;
+  background-color: rgb(243, 243, 243);
+  border: none;
 }
-.form {
-  width: 50%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  border-left: 1px solid black;
-  padding-left: 30px;
+textarea {
+  width: 95%;
+  border-radius: 0.4em;
+  height: 150px;
+  padding: 10px 10px;
+  border: none;
+  margin: 10px 0px;
+  background-color: rgb(243, 243, 243);
+  resize: none;
 }
-.form-container > h3 {
-  margin: 20px 0px;
+textarea:focus {
+  outline: none;
 }
-.button-send {
-  margin-top: 30px;
-  padding: 20px;
-  width: 200px;
-  font-size: 20px;
-  cursor: pointer;
+.input:focus {
+  outline: none;
+}
+.div-button {
+  width: 100%;
+}
+.button-form-contact {
+  width: 97%;
+  border: none;
+  border-radius: 0.4em;
+  padding: 10px 10px;
+  font-size: 15px;
+  background-color: rgb(44, 146, 193);
 }

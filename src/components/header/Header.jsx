@@ -1,30 +1,21 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./Header.css";
-
 import { Link } from "react-router-dom";
+
 const Header = () => {
-  const [sticky, setSticky] = useState("");
-  const toSticky = () => {
-    if (document.documentElement.scrollTop !== 0) {
-      setSticky("sticky");
-    } else {
-      setSticky("notSticky");
-    }
-  };
-  useEffect(() => {
-    window.addEventListener("scroll", toSticky);
-  }, []);
   return (
-    <div className={`header ${sticky}`}>
+    <div className={`header `}>
       <div className="icon">
-        <img
-          src={
-            "https://res.cloudinary.com/dni5cjwpu/image/upload/v1674244055/metrica/Recurso_2_t8unvy.png"
-          }
-          alt="instagram"
-          width={150}
-          height={50}
-        />
+        <Link to="/">
+          <img
+            src={
+              "https://res.cloudinary.com/dni5cjwpu/image/upload/v1674244055/metrica/Recurso_2_t8unvy.png"
+            }
+            alt="instagram"
+            width={150}
+            height={50}
+          />
+        </Link>
       </div>
       <div className="pest">
         <div className="enlaces">
@@ -52,15 +43,12 @@ const Header = () => {
               </svg>
               <ul className="submenu">
                 <li>
-                  {" "}
                   <Link to="/marketing">Marketing</Link>
                 </li>
                 <li>
-                  {" "}
                   <Link to="/SitiosWeb">Sitios Web</Link>
                 </li>
                 <li>
-                  {" "}
                   <Link to="/diseño">Diseño Grafico</Link>
                 </li>
               </ul>
@@ -77,12 +65,13 @@ const Header = () => {
               <ul className="submenu">
                 <li>Método de Trabajo</li>
                 <li>
-                  {" "}
                   <Link to="/equipo">Nuestro Equipo</Link>
                 </li>
               </ul>
             </li>
-            <li>Contactanos</li>
+            <li>
+              <Link to="/contact">Contactanos</Link>
+            </li>
           </ul>
         </div>
       </div>

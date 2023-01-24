@@ -6,6 +6,7 @@ import NotFound from "./components/main/NotFound/notFound";
 import SitiosWeb from "./components/main/Home/planes/SitiosWeb/SitiosWeb";
 import DiseñoGrafico from "./components/main/Home/planes/DiseñoGrafico";
 import NuestroEquipo from "./components/main/Home/SobreNosotros/NuestroEquipo/NuestroEquipo";
+import Contactanos from "./components/main/Home/Contactanos/Contactanos";
 
 export const App = createBrowserRouter([
   {
@@ -31,6 +32,11 @@ export const App = createBrowserRouter([
   {
     path: "/equipo",
     element: <NuestroEquipo />,
+    errorElement: <NotFound />,
+  },
+  {
+    path: "/contact",
+    element: <Contactanos />,
     errorElement: <NotFound />,
   },
 ]);

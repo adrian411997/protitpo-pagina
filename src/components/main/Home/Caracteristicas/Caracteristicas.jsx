@@ -4,7 +4,7 @@ import "./Caracteristicas.css";
 const Caracteristicas = () => {
   const [flip, setFlip] = useState("");
   const handleFlip = () => {
-    if (document.documentElement.scrollTop >= 2300) {
+    if (document.documentElement.scrollTop >= 1500) {
       setFlip("flip");
     } else {
       setFlip("");
