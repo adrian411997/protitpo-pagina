@@ -1,45 +1,85 @@
-import React from "react";
+import React, { useState } from "react";
+import Header from "../../../header/Header";
 import "./Contactanos.css";
 
 const Contactanos = () => {
+  const [form, setForm] = useState({
+    nombre: "",
+    email: "",
+    web: "",
+    pais: "",
+    text: "",
+  });
+  const handleOnChange = (e) => {
+    setForm({ ...form, [e.target.name]: e.target.value });
+  };
+  console.log(form);
   return (
-    <div className="contact-container">
-      <div className="image-form">
-        <img
-          src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1674246386/metrica/contacto_dchbji.png"
-          alt="contactanos"
-          width={500}
-          height={200}
-        />{" "}
+    <>
+      <Header />
+      <div className="contact-container">
+        <div className="contact-content">
+          <div className="title-contact-form">
+            <h1>¿Te ayudamos?</h1>
+            <br />
+            <p>Queremos saber que podemos hacer por ti y ayudarte a crecer</p>
+            <br />
+          </div>
+          <div className="form">
+            <form
+              action="mailto:metrica.agenciamkt@gmail.com"
+              method="POST"
+              encType="text/plain"
+            >
+              <input
+                onChange={handleOnChange}
+                name="nombre"
+                className="input"
+                placeholder="Tu nombre"
+                type={"text"}
+              />
+              <input
+                onChange={handleOnChange}
+                className="input"
+                name="email"
+                placeholder="Tu email"
+                type={"email"}
+              />
+              <input
+                onChange={handleOnChange}
+                className="input"
+                name="web"
+                placeholder="Tu Web"
+                type={"url"}
+              />
+              <select onChange={handleOnChange} name="pais">
+                <option value="Argentina">Argentina</option>
+                <option value="España">España</option>
+                <option value="Estados Unidos">Estados Unidos</option>
+                <option value="Chile">Chile</option>
+              </select>
+              <textarea onChange={handleOnChange} name="text" />
+              <div className="div-button">
+                <button
+                  className="button-form-contact"
+                  type="submit"
+                  value={"Send"}
+                  disabled={
+                    form.nombre === "" ||
+                    form.email === "" ||
+                    form.web === "" ||
+                    form.pais === "" ||
+                    form.text === ""
+                  }
+                >
+                  Enviar
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
-      <div className="form">
-        <form>
-          <div className="nombre form-container">
-            <h3>Nombre completo</h3>
-            <input className="input" id="name" type="text" />
-          </div>
-          <div className="empresa form-container">
-            <h3>Empresa</h3>
-            <input className="input" id="name" type="text" />
-          </div>
-          <div className="email form-container">
-            <h3> E-mail</h3>
-            <input className="input" id="name" type="text" />
-          </div>
-          <div className="telefono form-container">
-            <h3>Telefono</h3>
-            <input className="input" id="name" type="text" />
-          </div>
-          <div className="mensaje form-container">
-            <h3>Mensaje</h3>
-            <input className="input" id="name" type="text" />
-          </div>
-          <div className="button send-form">
-            <button className="button-send">Enviar</button>
-          </div>
-        </form>
-      </div>
-    </div>
+    </>
   );
 };
 
