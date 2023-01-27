@@ -9,7 +9,7 @@ const Header = () => {
         <Link to="/">
           <img
             src={
-              "https://res.cloudinary.com/dni5cjwpu/image/upload/v1674244055/metrica/Recurso_2_t8unvy.png"
+              "https://res.cloudinary.com/dni5cjwpu/image/upload/v1674782319/metrica/Recurso_7_vkj4ei.png"
             }
             alt="instagram"
             width={150}
