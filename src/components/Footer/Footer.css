@@ -48,6 +48,10 @@
   display: flex;
   justify-content: center;
 }
+.info-tel{
+  padding-bottom: 10px;
+  font-size: 18px;
+}
 .place,
 .footer-info-contact {
   padding-bottom: 10px;

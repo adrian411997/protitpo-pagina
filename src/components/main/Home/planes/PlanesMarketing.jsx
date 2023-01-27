@@ -1,7 +1,12 @@
-import React from 'react'
+import React from 'react';
 import Header from '../../../header/Header';
+import Footer from '../../../Footer/Footer';
 const PlanesMarketing = () => {
-  return "PlanesMarketing";
+  return (
+    
+    <Header />
+
+  )
     
 };
   

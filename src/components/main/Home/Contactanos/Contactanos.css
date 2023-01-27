@@ -60,3 +60,8 @@ textarea:focus {
   font-size: 15px;
   background-color: rgb(44, 146, 193);
 }
+::placeholder {
+  color: #858383;
+  font-size: 1.1em;
+  font-style: italic;
+}

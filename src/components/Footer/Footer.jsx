@@ -23,8 +23,11 @@ const Footer = () => {
               <div className="place">
                 <span> Estamos en: Argentina, Salta</span>
               </div>
+              <div className="info-tel">
+                <span>Telefono:+5493874149600</span>
+              </div>
               <div className="footer-info-contact">
-                <span>contactanos: metrica.agenciamkt@gmail.com</span>
+                <span>Contactanos: metrica.agenciamkt@gmail.com</span>
               </div>
 
               <h3>

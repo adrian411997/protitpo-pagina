@@ -58,9 +58,10 @@ const Contactanos = () => {
                 <option value="Estados Unidos">Estados Unidos</option>
                 <option value="Chile">Chile</option>
               </select>
-              <textarea onChange={handleOnChange} name="text" />
+              <textarea  placeholder="Cuéntanos como te podemos ayudar" onChange={handleOnChange} name="text" />
               <div className="div-button">
                 <button
+               
                   className="button-form-contact"
                   type="submit"
                   value={"Send"}
