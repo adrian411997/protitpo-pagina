@@ -87,7 +87,6 @@ const SitiosWeb = () => {
                 nosotros lo hacemos mejor que nadie.
               </div>
             </div>
-
             <div className="element third">
               <button className="not-button">
                 <svg width="50px" height="50px" viewBox="0 0 24 24" fill="none">
@@ -150,6 +149,73 @@ const SitiosWeb = () => {
               <div>
                 Trabajmos con nuestro propio banco de material fotografico con
                 derechos de autor.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="site-web-prices">
+          <div className="site-web-prices-title">
+            <h1>Nuestros planes</h1>
+          </div>
+          <div className="site-web-prices-columns">
+            <div className="web-column">
+              <div className="web-column-title">
+                <h3>Basico</h3>
+              </div>
+              <div className="web-column-price">200 USD</div>
+              <div className="web-column-services">
+                <ul>
+                  <li>HOSTING BASICO</li>
+                  <li>Plantilla a elección</li>
+                  <li>FTP & SMTP</li>
+                  <li>Formulario de contacto</li>
+                  <li>Hasta 3 secciones</li>
+                  <li>Social Links</li>
+                  <li>Tutorial Basico</li>
+                </ul>
+              </div>
+              <div className="web-column-button">
+                <button>Consultar</button>
+              </div>
+            </div>{" "}
+            <div className="web-column">
+              <div className="web-column-title">
+                <h3>Basico</h3>
+              </div>
+              <div className="web-column-price">200 USD</div>
+              <div className="web-column-services">
+                <ul>
+                  <li>HOSTING BASICO</li>
+                  <li>Plantilla a elección</li>
+                  <li>FTP & SMTP</li>
+                  <li>Formulario de contacto</li>
+                  <li>Hasta 3 secciones</li>
+                  <li>Social Links</li>
+                  <li>Tutorial Basico</li>
+                </ul>
+              </div>
+              <div className="web-column-button">
+                <button>Consultar</button>
+              </div>
+            </div>{" "}
+            <div className="web-column">
+              <div className="web-column-title">
+                <h3>Basico</h3>
+              </div>
+              <div className="web-column-price">200 USD</div>
+              <div className="web-column-services">
+                <ul>
+                  <li>HOSTING BASICO</li>
+                  <li>Plantilla a elección</li>
+                  <li>FTP & SMTP</li>
+                  <li>Formulario de contacto</li>
+                  <li>Hasta 3 secciones</li>
+                  <li>Social Links</li>
+                  <li>Tutorial Basico</li>
+                </ul>
+              </div>
+              <div className="web-column-button">
+                <button>Consultar</button>
               </div>
             </div>
           </div>

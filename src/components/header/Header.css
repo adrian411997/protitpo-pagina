@@ -44,8 +44,8 @@
   align-items: center;
   margin: 0px 10px;
 }
-.plans {
-  background-color: aqua;
+.plans,
+.team {
   padding: 20px;
 }
 /* DESPLIEGUE DEL SUBMENU */

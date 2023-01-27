@@ -118,3 +118,57 @@
     opacity: 1;
   }
 }
+.site-web-prices {
+  text-align: center;
+  height: 100vh;
+  width: 80%;
+}
+.web-column-title {
+  padding: 20px 0px;
+  background-color: grey;
+  color: white;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+.web-column-price {
+  font-size: 40px;
+  padding: 30px 0px;
+  background-color: rgb(240, 242, 245);
+}
+.web-column {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 10px 20px;
+}
+.site-web-prices-columns {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.web-column-services ul li:first-child {
+  color: rgb(182, 145, 78);
+  font-weight: bolder;
+}
+.web-column-services ul li:not(:last-child) {
+  border-bottom: 1px solid black;
+}
+.web-column-button {
+  padding: 10px 0px;
+  background-color: blue;
+  width: 100%;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+.web-column-button button {
+  background-color: blue;
+  padding: 10px 10px;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+.web-column-services ul li {
+  list-style-type: none;
+  padding: 20px 0px;
+  background-color: white;
+}
