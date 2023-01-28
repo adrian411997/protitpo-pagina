@@ -1,0 +1,87 @@
+.planes-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 150px 0px;
+  background-color: rgb(240, 242, 245);
+}
+.planes-container-title {
+  padding-bottom: 20px;
+}
+.marketing-content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.planes-marketing-columns {
+  display: flex;
+  justify-content: space-between;
+}
+.marketing-columns {
+  width: 50%;
+  background-color: white;
+  text-align: center;
+  margin: 0px 50px;
+  border-radius: 0.5rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.marketing-column-image {
+  padding: 10px 0px;
+}
+.marketing-column-title {
+  padding: 10px 0px;
+}
+.marketing-column-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(233, 233, 244);
+  margin: 0 50px;
+  padding: 20px 0px;
+}
+.marketing-column-price p {
+  padding-top: 5px;
+}
+.marketing-column-services-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+}
+.marketin-column-services ul li {
+  list-style-type: none;
+  padding: 10px 0px;
+}
+.marketin-column-services {
+  padding-top: 30px;
+  width: 80%;
+}
+.marketin-column-button {
+  padding: 10px 0px;
+}
+.marketin-column-button a button {
+  padding: 15px;
+  width: 150px;
+  font-size: 15px;
+  background-color: rgb(44, 146, 193);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.socialmedia-columns {
+  background-color: white;
+  padding: 0px 80px;
+  text-align: center;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border-radius: 0.4em;
+}
+.socialmedia-container-title {
+  
+  padding: 100px 0px;
+}

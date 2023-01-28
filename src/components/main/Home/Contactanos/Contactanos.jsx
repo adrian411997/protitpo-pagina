@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Header from "../../../header/Header";
+import Footer from "../../../Footer/Footer";
 import "./Contactanos.css";
 
 const Contactanos = () => {
@@ -9,7 +10,16 @@ const Contactanos = () => {
     web: "",
     pais: "",
     text: "",
+    numero: "",
   });
+  const [hideInput, setHideInput] = useState(false);
+  const showInput = () => {
+    if (!hideInput) {
+      setHideInput(true);
+    } else {
+      setHideInput(false);
+    }
+  };
   const handleOnChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
@@ -48,6 +58,13 @@ const Contactanos = () => {
               <input
                 onChange={handleOnChange}
                 className="input"
+                name="numero"
+                placeholder="Tu numero"
+                type={"number"}
+              />
+              <input
+                onChange={handleOnChange}
+                className="input"
                 name="web"
                 placeholder="Tu Web"
                 type={"url"}
@@ -58,19 +75,20 @@ const Contactanos = () => {
                 <option value="Estados Unidos">Estados Unidos</option>
                 <option value="Chile">Chile</option>
               </select>
-              <textarea  placeholder="Cuéntanos como te podemos ayudar" onChange={handleOnChange} name="text" />
+              <textarea onChange={handleOnChange} name="text" />
               <div className="div-button">
                 <button
                
                   className="button-form-contact"
                   type="submit"
-                  value={"Send"}
+                  value={"submit"}
                   disabled={
                     form.nombre === "" ||
                     form.email === "" ||
                     form.web === "" ||
                     form.pais === "" ||
-                    form.text === ""
+                    form.text === "" ||
+                    form.numero === ""
                   }
                 >
                   Enviar
@@ -80,6 +98,7 @@ const Contactanos = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

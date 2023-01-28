@@ -1,7 +1,7 @@
 import "./App.css";
 import Home from "./components/main/Home/Home";
 import { createBrowserRouter } from "react-router-dom";
-import PlanesMarketing from "./components/main/Home/planes/PlanesMarketing";
+import PlanesMarketing from "./components/main/Home/planes/Marketing/PlanesMarketing";
 import NotFound from "./components/main/NotFound/notFound";
 import SitiosWeb from "./components/main/Home/planes/SitiosWeb/SitiosWeb";
 import DiseñoGrafico from "./components/main/Home/planes/DiseñoGrafico";

@@ -24,12 +24,7 @@ const Portada = () => {
               }
               alt="emocion"
             />
-            <div>
-              
-              <a href="https://api.whatsapp.com/send?phone=https://api.whatsapp.com/send?phone=5403874149600&text=Hola%20bienvenido!&text=Hola%20bienvenido!" class="float" target="_blank"></a>
-              <i class="fa fa-whatsapp my-float"></i>
-              
-            </div>
+            
             
           </div>
         </div>
