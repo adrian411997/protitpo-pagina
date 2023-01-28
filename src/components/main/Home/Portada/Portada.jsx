@@ -14,7 +14,7 @@ const Portada = () => {
             </div>
             <div className="body-writing">
               Una agencia de marketing digital enfocado 100% en los servicios
-              que brindamos y asi lograr que su negocio crezca.
+              que brindamos con el fin de potenciar tu negocio al maximo.
             </div>
           </div>
           <div className="image">
@@ -24,10 +24,13 @@ const Portada = () => {
               }
               alt="emocion"
             />
+            
+            
           </div>
         </div>
       </div>
     </div>
+    
   );
 };
 

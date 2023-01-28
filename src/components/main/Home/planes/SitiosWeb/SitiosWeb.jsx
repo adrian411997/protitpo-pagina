@@ -147,7 +147,7 @@ const SitiosWeb = () => {
               </button>
               <h1>Banco de imagenes</h1>
               <div>
-                Trabajmos con nuestro propio banco de material fotografico con
+                Trabajamos con nuestro propio banco de material fotografico con
                 derechos de autor.
               </div>
             </div>

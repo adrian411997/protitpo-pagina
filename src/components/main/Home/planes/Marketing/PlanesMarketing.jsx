@@ -24,11 +24,11 @@ const PlanesMarketing = () => {
               </div>
               <div className="marketing-column-title">
                 <h3>Metrica Basic</h3>
-                <p>Estrategia de Contenidoy Social Media</p>
+                <p>Estrategia ideal para potenciar tu marca</p>
               </div>
               <div className="marketing-column-price">
-                <h2>60000</h2>
-                <p>ARS</p>
+                <h2>$60.000</h2>
+                <p>/ + IVA x mes</p>
               </div>{" "}
               <div className="marketing-column-services-container">
                 <div className="marketin-column-services">
@@ -67,11 +67,11 @@ const PlanesMarketing = () => {
               </div>
               <div className="marketing-column-title">
                 <h3>Metrica PRO</h3>
-                <p>COMUNITY METRICA PRO</p>
+                <p>Contenido estrategico para llevar al siguiente nivel tu empresa</p>
               </div>
               <div className="marketing-column-price">
-                <h2>85000</h2>
-                <p>ARS</p>
+                <h2>$85.000</h2>
+                <p>/ + IVA x mes</p>
               </div>
               <div className="marketing-column-services-container">
                 <div className="marketin-column-services">
@@ -90,8 +90,8 @@ const PlanesMarketing = () => {
                     <li>Pautas no incluídas</li>
                     <li>Estrategias de Crecimiento</li>
                     <li>Programacion Mensal</li>
-                    <li>Reunion con tu manager</li>
                     <li>Reportes mensuales</li>
+                    <li>Reunion con tu manager</li>
                   </ul>
                 </div>
               </div>
@@ -109,7 +109,7 @@ const PlanesMarketing = () => {
         </div>
         <div className="socialmedia-planes">
           <div className="socialmedia-container-title">
-            <h1>Publicidad en Social Media</h1>
+            <h1>Publicidad en Redes Sociales</h1>
           </div>
           <div className="planes-marketing-columns">
             <div className="socialmedia-columns">
@@ -122,12 +122,12 @@ const PlanesMarketing = () => {
                 />
               </div>
               <div className="marketing-column-title">
-                <h3>Metrica Basic</h3>
-                <p>Estrategia de Contenidoy Social Media</p>
+                <h3>Meta Business</h3>
+                <p>Estrategia Digital Publicitaria</p>
               </div>
               <div className="marketing-column-price">
-                <h2>35000</h2>
-                <p>ARS</p>
+                <h2>$35.000</h2>
+                <p>/ + IVA x mes</p>
               </div>{" "}
               <div className="marketing-column-services-container">
                 <div className="marketin-column-services">
@@ -137,7 +137,7 @@ const PlanesMarketing = () => {
                     </li>
                     <li>Estrategias de campaña</li>
                     <li>Reportes mensuales o semanales</li>
-
+                    <li>Diseño Grafico y Social Design</li>
                     <li>Pauta no incluida</li>
                   </ul>
                 </div>
