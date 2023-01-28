@@ -72,6 +72,12 @@
   border: none;
   border-radius: 0.5rem;
   cursor: pointer;
+  transition: 0.2s;
+}
+.marketin-column-button a button:hover {
+  background-color: white;
+  color: rgb(44, 146, 193);
+  border: 1px solid rgb(44, 146, 193);
 }
 .socialmedia-columns {
   background-color: white;
@@ -83,4 +89,7 @@
 }
 .socialmedia-container-title {
   padding: 100px 0px;
+}
+.marketing-column-image img {
+  border-radius: 1em;
 }

@@ -25,12 +25,26 @@
   font-size: 20px;
 }
 .know-us {
+  background-color: rgb(40, 167, 69);
+  color: white;
   padding: 20px;
   margin-top: 20px;
   font-size: 20px;
   border-radius: 0.5em;
   border: none;
   cursor: pointer;
+  transition: 0.2s;
+}
+.know-us a {
+  color: white;
+}
+.know-us:hover {
+  background-color: white;
+  color: rgb(40, 167, 69);
+  border: 1px solid rgb(40, 167, 69);
+}
+.know-us:hover a {
+  color: rgb(40, 167, 69);
 }
 .members {
   width: 100%;

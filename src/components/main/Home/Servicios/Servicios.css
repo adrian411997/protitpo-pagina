@@ -50,4 +50,11 @@
   border: none;
   cursor: pointer;
   background-color: rgb(44, 146, 193);
+  transition: 0.2s;
+}
+
+.button-service2:hover {
+  background-color: white;
+  color: rgb(44, 146, 193);
+  border: 1px solid rgb(44, 146, 193);
 }
