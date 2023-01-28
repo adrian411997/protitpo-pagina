@@ -69,12 +69,35 @@ const Contactanos = () => {
                 placeholder="Tu Web"
                 type={"url"}
               />
-              <select onChange={handleOnChange} name="pais">
-                <option value="Argentina">Argentina</option>
-                <option value="España">España</option>
-                <option value="Estados Unidos">Estados Unidos</option>
-                <option value="Chile">Chile</option>
-              </select>
+              {hideInput ? (
+                <div className="contactanos-div-input">
+                  <input
+                    onChange={handleOnChange}
+                    className="input"
+                    name="pais"
+                    placeholder="Introduzca su pais"
+                  />
+                  <button type={"button"} onClick={showInput}>
+                    Atras
+                  </button>
+                </div>
+              ) : (
+                <div className="contactanos-div-select">
+                  <select onChange={handleOnChange} name="pais">
+                    <option value="">Seleccione su pais</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="España">España</option>
+                    <option value="Estados Unidos">Estados Unidos</option>
+                    <option value="Chile">Chile</option>
+                  </select>
+                  <button onClick={showInput} type={"button"}>
+                    Ingresar pais
+                  </button>
+                </div>
+              )}
+              <span>
+                Si su pais no se encuentra en la lista, oprima Ingresar pais
+              </span>
               <textarea onChange={handleOnChange} name="text" />
               <div className="div-button">
                 <button
