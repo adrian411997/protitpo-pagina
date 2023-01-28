@@ -16,8 +16,8 @@ const PlanesMarketing = () => {
             <div className="marketing-columns">
               <div className="marketing-column-image">
                 <img
-                  src="https://anunzi.net/wp-content/uploads/2020/12/planes.png"
-                  width={250}
+                  src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1674942500/metrica/metribasico_kx8sut.jpg"
+                  width={150}
                   height={150}
                   alt="socialMedia"
                 />
@@ -59,8 +59,8 @@ const PlanesMarketing = () => {
             <div className="marketing-columns">
               <div className="marketing-column-image">
                 <img
-                  src="https://anunzi.net/wp-content/uploads/2020/12/planes-1.png"
-                  width={250}
+                  src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1674942500/metrica/metripro_c6xikf.jpg"
+                  width={150}
                   height={150}
                   alt="socialMedia"
                 />
@@ -115,8 +115,8 @@ const PlanesMarketing = () => {
             <div className="socialmedia-columns">
               <div className="marketing-column-image">
                 <img
-                  src="https://anunzi.net/wp-content/uploads/2020/12/planes-3.png"
-                  width={250}
+                  src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1674942500/metrica/socialmedia_rdaxe5.jpg"
+                  width={150}
                   height={150}
                   alt="socialMedia"
                 />
