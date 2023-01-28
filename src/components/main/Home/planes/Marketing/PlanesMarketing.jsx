@@ -47,7 +47,13 @@ const PlanesMarketing = () => {
                 </div>
               </div>
               <div className="marketin-column-button">
-                <button>Me decidí</button>
+                <a
+                  href="https://api.whatsapp.com/send?phone=https://api.whatsapp.com/send?phone=5403874149600&text=Hola%20bienvenido!&text=Hola,%20quiero%20el%20plan%20Metrica%20Basico!"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button>Me decidí </button>
+                </a>
               </div>
             </div>
             <div className="marketing-columns">
@@ -90,7 +96,13 @@ const PlanesMarketing = () => {
                 </div>
               </div>
               <div className="marketin-column-button">
-                <button>Me decidí</button>
+                <a
+                  href="https://api.whatsapp.com/send?phone=https://api.whatsapp.com/send?phone=5403874149600&text=Hola%20bienvenido!&text=Hola,%20quiero%20el%20plan%20Metrica%20Pro!"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button>Me decidí </button>
+                </a>
               </div>
             </div>
           </div>
@@ -131,7 +143,13 @@ const PlanesMarketing = () => {
                 </div>
               </div>
               <div className="marketin-column-button">
-                <button>Me decidí</button>
+                <a
+                  href="https://api.whatsapp.com/send?phone=https://api.whatsapp.com/send?phone=5403874149600&text=Hola%20bienvenido!&text=Hola,%20quiero%20el%20plan%20Social%20Media!"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button>Me decidí</button>
+                </a>
               </div>
             </div>
           </div>
