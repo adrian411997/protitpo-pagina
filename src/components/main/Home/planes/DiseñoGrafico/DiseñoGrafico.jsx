@@ -1,15 +1,17 @@
 import React from "react";
-import Header from "../../../header/Header";
-import Footer from "../../../Footer/Footer";
+import Header from "../../../../header/Header";
+import Footer from "../../../../Footer/Footer";
 import "./DiseñoGrafico.css";
 
 const DiseñoGrafico =() => {
     return(
         <>
         <Header />
-        <div className="welcomePart">
+        <div className="grafico-content">
         <div className="titulo">
+    <div>
     <h1>Diseño grafico y Social Design</h1>
+    </div>
     <div >
     Detectamos y solucionamos problemas de comunicación visual.
     </div>
@@ -26,11 +28,13 @@ const DiseñoGrafico =() => {
     <li>Grafica publicitaria</li>
     <li>Editorial</li>
     <li>Interiores y señalizacion</li>
+    <li>Rebranding</li>
     </div>
     </div>
     </div>
 </div>
 </div>
+<Footer />
 </>
     )
 }
