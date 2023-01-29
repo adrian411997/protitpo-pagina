@@ -160,64 +160,106 @@ const SitiosWeb = () => {
           <div className="site-web-prices-columns">
             <div className="web-column">
               <div className="web-column-title">
-                <h3>Basico</h3>
+                <h1>EMPRENDER</h1>
+                <b />
+                <p>Conseguí presencia profesional en Internet</p>
               </div>
               <div className="web-column-price">200 USD</div>
               <div className="web-column-services">
                 <ul>
-                  <li>HOSTING BASICO</li>
-                  <li>Plantilla a elección</li>
-                  <li>FTP & SMTP</li>
-                  <li>Formulario de contacto</li>
-                  <li>Hasta 3 secciones</li>
-                  <li>Social Links</li>
-                  <li>Tutorial Basico</li>
-                </ul>
-              </div>
-              <div className="web-column-button">
-                <button>Consultar</button>
-              </div>
-            </div>{" "}
-            <div className="web-column">
-              <div className="web-column-title">
-                <h3>Basico</h3>
-              </div>
-              <div className="web-column-price">200 USD</div>
-              <div className="web-column-services">
-                <ul>
-                  <li>HOSTING BASICO</li>
-                  <li>Plantilla a elección</li>
-                  <li>FTP & SMTP</li>
-                  <li>Formulario de contacto</li>
-                  <li>Hasta 3 secciones</li>
-                  <li>Social Links</li>
-                  <li>Tutorial Basico</li>
-                </ul>
-              </div>
-              <div className="web-column-button">
-                <button>Consultar</button>
-              </div>
-            </div>{" "}
-            <div className="web-column">
-              <div className="web-column-title">
-                <h3>Basico</h3>
-              </div>
-              <div className="web-column-price">200 USD</div>
-              <div className="web-column-services">
-                <ul>
-                  <li>HOSTING BASICO</li>
-                  <li>Plantilla a elección</li>
-                  <li>FTP & SMTP</li>
-                  <li>Formulario de contacto</li>
-                  <li>Hasta 3 secciones</li>
-                  <li>Social Links</li>
-                  <li>Tutorial Basico</li>
+                  <li> Diseño de 1 sitio con 3 páginas</li>
+                  <li>Hosting PLUS incluido</li>
+                  <li>Vinculación con WhatsApp</li>
+                  <li> Enlace a tus redes sociales</li>
+                  <li> Formulario de contacto</li>
+                  <li> Optimizado para Google</li>
+                  <li> Localización en Google Maps</li>
+                  <li> Adaptable a todas las pantallas</li>
+                  <li>Certificado de seguridad SSL</li>
                 </ul>
               </div>
               <div className="web-column-button">
                 <button>Consultar</button>
               </div>
             </div>
+            <div className="web-column">
+              <div className="web-column-title2">
+                <h1>NEGOCIO</h1>
+                <b />
+                <p>Llevá tu empresa a nuevos mercados</p>
+              </div>
+              <div className="web-column-price">200 USD</div>
+              <div className="web-column-services">
+                <ul>
+                  <li> Diseño de 1 sitio con 5 páginas</li>
+                  <li>Hosting PLUS incluido</li>
+                  <li>Vinculación con WhatsApp</li>
+                  <li> Enlace a tus redes sociales</li>
+                  <li> Formulario de contacto</li>
+                  <li> Optimizado para Google</li>
+                  <li> Localización en Google Maps</li>
+                  <li> Adaptable a todas las pantallas</li>
+                  <li>Certificado de seguridad SSL</li>
+                </ul>
+              </div>
+              <div className="web-column-button">
+                <button>Consultar</button>
+              </div>
+            </div>{" "}
+            <div className="web-column">
+              <div className="web-column-title3">
+                <h1>TIENDA ONLINE</h1>
+                <b />
+                <p>Multiplicá tus ventas y llegá a más clientes</p>
+              </div>
+              <div className="web-column-price">200 USD</div>
+              <div className="web-column-services">
+                <ul>
+                  <li> Diseño de 1 sitio con 5 páginas</li>
+                  <li>Hosting NITRO incluido</li>
+                  <li>Mercadopago y envíos</li>
+                  <li>Gestion de ventas y clientes</li>
+                  <li> Cupones con códigos de descuentos</li>
+                  <li>Vinculación con WhatsApp</li>
+                  <li> Enlace a tus redes sociales</li>
+                  <li> Formulario de contacto</li>
+                  <li>Optimizado para Google</li>
+                  <li>Localización en Google Maps</li>
+                  <li> Adaptable a todas las pantallas</li>
+                  <li> Certificado de seguridad SSL</li>
+                  <li>Tienda autogestionable con tutoriales incluidos</li>
+                </ul>
+              </div>
+              <div className="web-column-button">
+                <button>Consultar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="icon-whatsapp">
+          <div className="images-icon-wpp">
+            <a
+              href="https://api.whatsapp.com/send?phone=https://api.whatsapp.com/send?phone=5403874149600&text=Hola%20bienvenido!&text=Hola,%20tengo%20una%20consulta!"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1674868793/metrica/wpp_xmmgba.png"
+                alt="whatsapp"
+                width={50}
+                height={50}
+              />
+            </a>
+          </div>
+
+          <div className="action">
+            <a
+              href="https://api.whatsapp.com/send?phone=https://api.whatsapp.com/send?phone=5403874149600&text=Hola%20bienvenido!&text=Hola,%20tengo%20una%20consulta!"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Contactanos
+            </a>
           </div>
         </div>
       </div>

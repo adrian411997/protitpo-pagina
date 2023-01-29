@@ -69,6 +69,9 @@ const Contactanos = () => {
                 placeholder="Tu Web"
                 type={"url"}
               />
+              <span>
+                Si su pais no se encuentra en la lista, oprima Ingresar pais
+              </span>
               {hideInput ? (
                 <div className="contactanos-div-input">
                   <input
@@ -95,9 +98,6 @@ const Contactanos = () => {
                   </button>
                 </div>
               )}
-              <span>
-                Si su pais no se encuentra en la lista, oprima Ingresar pais
-              </span>
               <textarea
                 onChange={handleOnChange}
                 name="text"
