@@ -4,7 +4,7 @@ import { createBrowserRouter } from "react-router-dom";
 import PlanesMarketing from "./components/main/Home/planes/Marketing/PlanesMarketing";
 import NotFound from "./components/main/NotFound/notFound";
 import SitiosWeb from "./components/main/Home/planes/SitiosWeb/SitiosWeb";
-import DiseñoGrafico from "./components/main/Home/planes/DiseñoGrafico";
+import DiseñoGrafico from "./components/main/Home/planes/DiseñoGrafico/DiseñoGrafico";
 import NuestroEquipo from "./components/main/Home/SobreNosotros/NuestroEquipo/NuestroEquipo";
 import Contactanos from "./components/main/Home/Contactanos/Contactanos";
 
