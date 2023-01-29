@@ -98,10 +98,13 @@ const Contactanos = () => {
               <span>
                 Si su pais no se encuentra en la lista, oprima Ingresar pais
               </span>
-              <textarea onChange={handleOnChange} name="text" />
+              <textarea
+                onChange={handleOnChange}
+                name="text"
+                placeholder="Escriba su mensaje aqui"
+              />
               <div className="div-button">
                 <button
-               
                   className="button-form-contact"
                   type="submit"
                   value={"submit"}
