@@ -5,6 +5,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .site-web-title {
@@ -120,12 +121,12 @@
 }
 .site-web-prices {
   text-align: center;
-  height: 100vh;
+  padding-bottom: 50px;
   width: 80%;
 }
 .web-column-title {
   padding: 20px 0px;
-  background-color: grey;
+  background-color: rgb(44, 146, 193);
   color: white;
   border-top-left-radius: 1em;
   border-top-right-radius: 1em;
@@ -138,12 +139,16 @@
 .web-column {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 25%;
   margin: 10px 20px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border-radius: 1em;
+  height: fit-content;
 }
 .site-web-prices-columns {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding-top: 50px;
 }
 .web-column-services ul li:first-child {
@@ -151,24 +156,49 @@
   font-weight: bolder;
 }
 .web-column-services ul li:not(:last-child) {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(233, 233, 244);
 }
 .web-column-button {
-  padding: 10px 0px;
-  background-color: blue;
-  width: 100%;
+  padding: 20px 0px;
+  background-color: white;
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;
 }
+
 .web-column-button button {
-  background-color: blue;
   padding: 10px 10px;
   border: none;
-  font-size: 20px;
+  background-color: rgb(44, 146, 193);
+  border-radius: 0.3rem;
+  font-size: 15px;
   color: white;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.web-column-button button:hover {
+  background-color: white;
+  color: rgb(44, 146, 193);
+  border: 1px solid rgb(44, 146, 193);
 }
 .web-column-services ul li {
   list-style-type: none;
   padding: 20px 0px;
+  margin: 0px 50px;
+}
+.web-column-services ul {
   background-color: white;
+}
+.web-column-title2 {
+  background-color: #ffcc00;
+  color: white;
+  padding: 20px 0px;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+.web-column-title3 {
+  background-color: #ff6742;
+  color: white;
+  padding: 20px 0px;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
 }

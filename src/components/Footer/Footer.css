@@ -11,7 +11,7 @@
   height: 100%;
 }
 .footer-content > div {
-  width: 50%;
+  width: 100%;
 }
 .footer-content {
   display: flex;
@@ -30,7 +30,6 @@
   justify-content: center;
 }
 .contact-column {
-  border-left: 1px solid black;
 }
 .footer-id-content {
   line-height: 1.6;
@@ -48,7 +47,7 @@
   display: flex;
   justify-content: center;
 }
-.info-tel{
+.info-tel {
   padding-bottom: 10px;
   font-size: 18px;
 }

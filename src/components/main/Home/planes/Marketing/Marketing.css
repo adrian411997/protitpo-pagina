@@ -5,6 +5,7 @@
   justify-content: center;
   padding: 150px 0px;
   background-color: rgb(240, 242, 245);
+  position: relative;
 }
 .planes-container-title {
   padding-bottom: 20px;
@@ -34,6 +35,16 @@
 }
 .marketing-column-title {
   padding: 10px 0px;
+}
+.marketing-column-title h3 {
+  padding: 10px;
+}
+.marketing-column-title2 {
+  padding: 10px 0px;
+  margin: 0px 50px;
+}
+.marketing-column-title2 h3 {
+  padding: 10px;
 }
 .marketing-column-price {
   display: flex;
@@ -88,7 +99,6 @@
   border-radius: 0.4em;
 }
 .socialmedia-container-title {
-  
   padding: 100px 0px;
 }
 .marketing-column-image img {
