@@ -44,7 +44,7 @@ const SitiosWeb = () => {
                   </g>
                 </svg>
               </button>
-              <h1>100% Responsive</h1>
+              <h3>100% Responsive</h3>
               <div>
                 Se ajusta perfecto tanto a un monitor y una laptop, como a una
                 tablet y un celular.
@@ -81,7 +81,7 @@ const SitiosWeb = () => {
                   </g>
                 </svg>
               </button>
-              <h1>Diseño Original </h1>
+              <h3>Diseño elegante y profesional </h3>
               <div>
                 Destacar de la competencia implica hacer la diferencia y
                 nosotros lo hacemos mejor que nadie.
@@ -102,7 +102,7 @@ const SitiosWeb = () => {
                   />
                 </svg>
               </button>
-              <h1>Crece sin limites</h1>
+              <h3>Crece sin limites</h3>
               <div>
                 Puedes elegir entre mas de 80 caracteristicas adicionales para
                 añadir a tu Sitio Web.
@@ -120,7 +120,7 @@ const SitiosWeb = () => {
                   <path d="M25.042 18.672v-12.487c0-1.234-1-2.236-2.236-2.236h-19.571c-1.235-0.001-2.236 1.001-2.236 2.236v12.487c0 1.235 1.001 2.236 2.236 2.236h3.729v5.137l5.704-5.137h10.137c1.237 0 2.237-1.001 2.237-2.236zM28.765 8.858h-2.798c0 0 0 9.972 0 10.909s-1.216 2.142-2.153 2.142-10.945 0.055-10.945 0.055c0 1.235 1.001 1.986 2.236 1.986h4.309l5.622 5.102-0.007-5.102h3.736c1.236 0 2.236-0.751 2.236-1.986v-10.932c0-1.234-1-2.174-2.236-2.174z" />
                 </svg>
               </button>
-              <h1>Recibe consultas</h1>
+              <h3>Recibe consultas</h3>
               <div>
                 Tu Sitio Web contara con un formulario para que se pongan en
                 contacto contigo asi estaran mas cerca de sus clientes.
@@ -145,10 +145,46 @@ const SitiosWeb = () => {
                   />
                 </svg>
               </button>
-              <h1>Banco de imagenes</h1>
+              <h3>Banco de imagenes</h3>
               <div>
                 Trabajamos con nuestro propio banco de material fotografico con
                 derechos de autor.
+              </div>
+            </div>
+            <div className="element sixth">
+              <img
+                src="https://vazmedia.com/meexooch/2022/04/map.png"
+                alt="svg"
+              />
+              <h3>Google Maps</h3>
+              <div>
+                Ubicación de Google Maps insertada en el sitio con su ubicación
+                física
+              </div>
+            </div>
+            <div className="element seventh">
+              <img
+                src="https://vazmedia.com/meexooch/2022/04/social-media.png"
+                alt="asoci"
+              />
+              <h3>Asociacion a tus redes sociales</h3>
+              <div>
+                Links a tu Facebook, Twitter, Instagram, Linkedin o la Red
+                Social que elijas.
+              </div>
+            </div>{" "}
+            <div className="element eight">
+              <img
+                src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1675105881/metrica/Pngtree_parental_counseling_online_class_vector_5406447_dnujlc.png"
+                alt="aseso"
+                width={100}
+                height={100}
+                style={{ borderRadius: "50%" }}
+              />
+              <h3>Asesoramiento</h3>
+              <div>
+                Además de diseñar, estamos para ayudarte y guiarte en el uso de
+                tu Sitio Web.
               </div>
             </div>
           </div>
