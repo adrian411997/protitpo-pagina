@@ -41,7 +41,7 @@ const PlanesMarketing = () => {
                     <li>Produccion fotografica</li>
                     <li>Edicion de Video</li>
                     <li>Estrategias de Crecimiento</li>
-                    <li>Programacion Mensal</li>
+                    <li>Programacion Mensual</li>
                     <li>Reunion con tu manager</li>
                   </ul>
                 </div>
@@ -92,7 +92,7 @@ const PlanesMarketing = () => {
                     </li>
                     <li>Pautas no incluídas</li>
                     <li>Estrategias de Crecimiento</li>
-                    <li>Programacion Mensal</li>
+                    <li>Programacion Mensual</li>
                     <li>Reportes mensuales</li>
                     <li>Reunion con tu manager</li>
                   </ul>
