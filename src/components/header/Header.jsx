@@ -17,6 +17,8 @@ const Header = () => {
       setAddClass("");
       setIsDesplegado(false);
       setSubmenuIndicator("haveSubmenu");
+      setSubmenuShow("");
+      setSubmenuShowUs("");
     }
   };
   const submenuShow = () => {
@@ -122,13 +124,19 @@ const Header = () => {
               )}
               <ul className={`submenu ${submenuShowPlans}`}>
                 <li>
-                  <Link to="/marketing">Marketing</Link>
+                  <Link to="/marketing">
+                    <div>Marketing</div>
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/SitiosWeb">Sitios Web</Link>
+                  <Link to="/SitiosWeb">
+                    <div>Sitios Web</div>
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/diseño">Diseño Grafico</Link>
+                  <Link to="/diseño">
+                    <div>Diseño Grafico</div>
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -159,7 +167,9 @@ const Header = () => {
               <ul className={`submenu ${submenuShowUs}`}>
                 <li>Método de Trabajo</li>
                 <li>
-                  <Link to="/equipo">Nuestro Equipo</Link>
+                  <Link to="/equipo">
+                    <div>Nuestro Equipo</div>
+                  </Link>
                 </li>
               </ul>
             </li>
