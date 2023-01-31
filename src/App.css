@@ -44,4 +44,8 @@ a {
   .action {
     display: none;
   }
+  .icon-whatsapp {
+    top: 600px;
+    left: 15px;
+  }
 }
