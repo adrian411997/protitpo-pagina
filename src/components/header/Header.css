@@ -89,6 +89,7 @@
 .submenu > li {
   display: none;
   border-radius: 0.5em;
+  width: 90%;
 }
 /* SVG ICON DROPDOWN */
 li:hover > svg {
@@ -141,9 +142,10 @@ p > span {
 --------------------------------------------------------------*/
 @media (max-width: 830px) {
   .pest {
-    width: 100%;
+    height: 0px;
+    width: 0px;
     display: none;
-    transition: 0.5s;
+    animation: hiding 0.5s ease-in-out;
   }
   .enlaces {
     width: 90%;
@@ -166,9 +168,24 @@ p > span {
     border: none;
   }
   .responsive-action {
+    height: 100%;
+    width: 100%;
     display: flex;
-    animation: show 2s ease-in-out;
+    animation: show 0.5s ease-in-out;
   }
+  @keyframes show {
+    from {
+      height: 0px;
+      opacity: 0;
+      display: none;
+    }
+    to {
+      height: 210px;
+      opacity: 1;
+      display: flex;
+    }
+  }
+
   .navbar {
     display: flex;
     flex-direction: column;
@@ -198,6 +215,7 @@ p > span {
     width: 0px;
     height: 0px;
     display: none;
+    transition: 0.2s;
   }
   .submenu > li {
     display: block;
@@ -224,17 +242,21 @@ p > span {
   .show-submenu {
     width: 90%;
     height: 100%;
-    display: flex;
+    display: block;
     margin-left: 20px;
     background-color: rgb(228, 228, 228);
-    flex-direction: column;
+    animation: nothingToSee 0.5s ease-in-out;
   }
-  @keyframes show {
+  @keyframes nothingToSee {
     from {
+      height: 0px;
+      opacity: 0;
       display: none;
     }
     to {
-      display: flex;
+      height: 120px;
+      opacity: 1;
+      display: block;
     }
   }
 }
