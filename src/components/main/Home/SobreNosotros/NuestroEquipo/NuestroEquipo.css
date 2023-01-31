@@ -134,3 +134,30 @@
   margin: 0px 5px;
   cursor: pointer;
 }
+
+@media (max-width: 830px) {
+  .intro-content {
+    width: 90%;
+  }
+  .intro-container {
+    height: auto;
+  }
+  .intro-content img {
+    width: 300px;
+    height: 300px;
+  }
+  .cards {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .cards > div {
+    width: 90%;
+  }
+  .members {
+    padding-top: 10px;
+    height: auto;
+  }
+  .memebers-container {
+    padding: 0px;
+  }
+}
