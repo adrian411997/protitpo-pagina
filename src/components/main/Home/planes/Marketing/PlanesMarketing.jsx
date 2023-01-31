@@ -100,7 +100,7 @@ const PlanesMarketing = () => {
               </div>
               <div className="marketin-column-button">
                 <a
-                  href="https://api.whatsapp.com/send?phone=https://api.whatsapp.com/send?phone=5403874149600&text=Hola%20bienvenido!&text=Hola,%20quiero%20el%20plan%20Metrica%20Pro!"
+                  href="https://api.whatsapp.com/send?phone=https://api.whatsapp.com/send?phone=5403874149600&text=Hola,%20quiero%20el%20plan%20Metrica%20Pro!"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -147,7 +147,7 @@ const PlanesMarketing = () => {
               </div>
               <div className="marketin-column-button">
                 <a
-                  href="https://api.whatsapp.com/send?phone=https://api.whatsapp.com/send?phone=5403874149600&text=Hola%20bienvenido!&text=Hola,%20quiero%20el%20plan%20Social%20Media!"
+                  href="https://api.whatsapp.com/send?phone=https://api.whatsapp.com/send?phone=5403874149600&text=Hola,%20quiero%20el%20plan%20Social%20Media!"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -160,7 +160,7 @@ const PlanesMarketing = () => {
         <div className="icon-whatsapp">
           <div className="images-icon-wpp">
             <a
-              href="https://api.whatsapp.com/send?phone=https://api.whatsapp.com/send?phone=5403874149600&text=Hola%20bienvenido!&text=Hola,%20tengo%20una%20consulta!"
+              href="https://api.whatsapp.com/send?phone=https://api.whatsapp.com/send?phone=5403874149600&text=Hola,%20tengo%20una%20consulta!"
               target="_blank"
               rel="noreferrer"
             >
@@ -175,7 +175,7 @@ const PlanesMarketing = () => {
 
           <div className="action">
             <a
-              href="https://api.whatsapp.com/send?phone=https://api.whatsapp.com/send?phone=5403874149600&text=Hola%20bienvenido!&text=Hola,%20tengo%20una%20consulta!"
+              href="https://api.whatsapp.com/send?phone=https://api.whatsapp.com/send?phone=5403874149600&text=Hola,%20tengo%20una%20consulta!"
               target="_blank"
               rel="noreferrer"
             >

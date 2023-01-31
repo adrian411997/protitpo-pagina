@@ -15,7 +15,7 @@ const Home = () => {
       <div className="icon-whatsapp">
         <div className="images-icon-wpp">
           <a
-            href="https://api.whatsapp.com/send?phone=https://api.whatsapp.com/send?phone=5403874149600&text=Hola%20bienvenido!&text=Hola,%20tengo%20una%20consulta!"
+            href="https://api.whatsapp.com/send?phone=https://api.whatsapp.com/send?phone=5403874149600&text=Hola,%20tengo%20una%20consulta!"
             target="_blank"
             rel="noreferrer"
           >
@@ -30,7 +30,7 @@ const Home = () => {
 
         <div className="action">
           <a
-            href="https://api.whatsapp.com/send?phone=https://api.whatsapp.com/send?phone=5403874149600&text=Hola%20bienvenido!&text=Hola,%20tengo%20una%20consulta!"
+            href="https://api.whatsapp.com/send?phone=https://api.whatsapp.com/send?phone=5403874149600&text=Hola,%20tengo%20una%20consulta!"
             target="_blank"
             rel="noreferrer"
           >
