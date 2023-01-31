@@ -254,7 +254,7 @@ const SitiosWeb = () => {
                   <li> Diseño de 1 sitio con 5 páginas</li>
                   <li>Hosting NITRO incluido</li>
                   <li>Mercadopago y envíos</li>
-                  <li>Gestion de ventas y clientes</li>
+                  <li>Optimizado paraventas y clientes</li>
                   <li> Cupones con códigos de descuentos</li>
                   <li>Vinculación con WhatsApp</li>
                   <li> Enlace a tus redes sociales</li>
