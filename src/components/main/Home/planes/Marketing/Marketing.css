@@ -104,3 +104,30 @@
 .marketing-column-image img {
   border-radius: 1em;
 }
+/*--------------------------------------------------------------
+# RESPONSIVE
+--------------------------------------------------------------*/
+@media (max-width: 830px) {
+  .marketing-content {
+    width: 100%;
+  }
+  .planes-marketing-columns {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .marketing-columns {
+    width: 90%;
+    margin: 10px 0px;
+  }
+  .planes-container-title,
+  .socialmedia-container-title {
+    text-align: center;
+  }
+  .socialmedia-columns {
+    width: 80%;
+    padding: 0px;
+  }
+}

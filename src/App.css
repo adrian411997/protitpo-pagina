@@ -40,3 +40,8 @@ a {
   border: 2px solid white;
   border-radius: 50%;
 }
+@media (max-width: 450px) {
+  .action {
+    display: none;
+  }
+}
