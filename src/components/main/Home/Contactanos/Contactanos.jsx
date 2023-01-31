@@ -101,7 +101,7 @@ const Contactanos = () => {
               <textarea
                 onChange={handleOnChange}
                 name="text"
-                placeholder="Escriba su mensaje aqui"
+                placeholder="Cuéntanos como te podemos ayudar"
               />
               <div className="div-button">
                 <button
