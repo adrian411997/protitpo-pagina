@@ -112,5 +112,9 @@ textarea:focus {
   border: 1px solid rgb(44, 146, 193);
   color: rgb(44, 146, 193);
   transition: 0.2s;
-
+}
+@media (max-width: 450px) {
+  .contact-content {
+    width: 90%;
+  }
 }
