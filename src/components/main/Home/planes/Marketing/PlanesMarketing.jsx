@@ -48,7 +48,7 @@ const PlanesMarketing = () => {
               </div>
               <div className="marketin-column-button">
                 <a
-                  href="https://api.whatsapp.com/send?phone=https://api.whatsapp.com/send?phone=5403874149600&text=Hola%20bienvenido!&text=Hola,%20quiero%20el%20plan%20Metrica%20Basico!"
+                  href="https://api.whatsapp.com/send?phone=https://api.whatsapp.com/send?phone=5403874149600&text=Hola,%20quiero%20el%20plan%20Metrica%20Basico!"
                   target="_blank"
                   rel="noreferrer"
                 >
