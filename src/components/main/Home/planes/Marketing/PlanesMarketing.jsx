@@ -16,7 +16,7 @@ const PlanesMarketing = () => {
             <div className="marketing-columns">
               <div className="marketing-column-image">
                 <img
-                  src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1674942500/metrica/metribasico_kx8sut.jpg"
+                  src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1675277740/metrica/Metrica_Basico_kqoaik.png"
                   width={150}
                   height={150}
                   alt="socialMedia"
@@ -59,7 +59,7 @@ const PlanesMarketing = () => {
             <div className="marketing-columns">
               <div className="marketing-column-image">
                 <img
-                  src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1674942500/metrica/metripro_c6xikf.jpg"
+                  src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1675277740/metrica/Metrica_Pro_qx2si8.png"
                   width={150}
                   height={150}
                   alt="socialMedia"
@@ -118,7 +118,7 @@ const PlanesMarketing = () => {
             <div className="socialmedia-columns">
               <div className="marketing-column-image">
                 <img
-                  src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1674942500/metrica/socialmedia_rdaxe5.jpg"
+                  src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1675277740/metrica/Publicidad_Digital_oumj9d.png"
                   width={150}
                   height={150}
                   alt="socialMedia"
