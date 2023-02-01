@@ -122,7 +122,7 @@ const NuestroEquipo = () => {
               <div className="content-card">
                 <div className="detail">
                   <h2>Adrian Martinez</h2>
-                  <p>Ceo, Desarrollador Full Stack</p>
+                  <p> Programador</p>
                   <div className="data">
                     <img
                       src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1673546463/metrica/linkedin_ijjxfn.png"

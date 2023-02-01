@@ -135,7 +135,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 1215px) {
   .intro-content {
     width: 90%;
   }
@@ -159,5 +159,26 @@
   }
   .memebers-container {
     padding: 0px;
+  }
+}
+@media (max-width: 450px) {
+  .detail {
+    transform: translateY(90px);
+  }
+}
+@media (max-width: 280px) {
+  .detail {
+    transform: translateY(110px);
+  }
+  .image-member {
+    width: 100px;
+    height: 100px;
+    top: -75px;
+  }
+  .detail h2 {
+    font-size: 20px;
+  }
+  .detail p {
+    font-size: 15px;
   }
 }
