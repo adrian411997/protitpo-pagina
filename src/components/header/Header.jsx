@@ -53,11 +53,10 @@ const Header = () => {
         <Link to="/">
           <img
             className="icon-responsive"
-            src={
-              "https://res.cloudinary.com/dni5cjwpu/image/upload/v1674247302/metrica/Recurso_4_aopmkj.png"
-            }
+            src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1674782319/metrica/Recurso_7_vkj4ei.png"
+            //src={"https://res.cloudinary.com/dni5cjwpu/image/upload/v1674247302/metrica/Recurso_4_aopmkj.png"}
             alt="instagram"
-            width={50}
+            width={150}
             height={50}
           />
         </Link>

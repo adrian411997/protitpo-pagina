@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../../../../Footer/Footer";
 import Header from "../../../../header/Header";
 import "./Marketing.css";
+import publicidad from "../../../../images/publi.png";
 
 const PlanesMarketing = () => {
   return (
@@ -118,7 +119,7 @@ const PlanesMarketing = () => {
             <div className="socialmedia-columns">
               <div className="marketing-column-image">
                 <img
-                  src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1675277740/metrica/Publicidad_Digital_oumj9d.png"
+                  src={publicidad}
                   width={150}
                   height={150}
                   alt="socialMedia"
