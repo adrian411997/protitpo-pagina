@@ -148,7 +148,6 @@ const SitiosWeb = () => {
                   <li> Enlace a tus redes sociales</li>
                   <li> Formulario de contacto</li>
                   <li> Optimizado para Google</li>
-                  <li> Localización en Google Maps</li>
                   <li> Adaptable a todas las pantallas</li>
                   <li>Certificado de seguridad SSL</li>
                 </ul>
