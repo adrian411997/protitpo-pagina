@@ -74,7 +74,7 @@ const SitiosWeb = () => {
               <h3>Recibe consultas</h3>
               <div>
                 Tu Sitio Web contara con un formulario para que se pongan en
-                contacto contigo asi estaran mas cerca de sus clientes.
+                contacto contigo asi estaras mas cerca de tus clientes.
               </div>
             </div>
             <div className="element fifth">
@@ -98,7 +98,7 @@ const SitiosWeb = () => {
               <h3>Google Maps</h3>
               <div>
                 Ubicación de Google Maps insertada en el sitio con su ubicación
-                física
+                física.
               </div>
             </div>
             <div className="element seventh">
@@ -106,7 +106,7 @@ const SitiosWeb = () => {
                 src="https://vazmedia.com/meexooch/2022/04/social-media.png"
                 alt="asoci"
               />
-              <h3>Asociacion a tus redes sociales</h3>
+              <h3>Asociación a tus redes sociales</h3>
               <div>
                 Links a tu Facebook, Twitter, Instagram, Linkedin o la Red
                 Social que elijas.
