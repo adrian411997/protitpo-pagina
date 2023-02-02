@@ -85,7 +85,7 @@ const Header = () => {
       <div className={`pest ${addClass}`}>
         <div className="enlaces">
           <ul className="navbar">
-            <li>Inicio</li>
+            <Link to="/" ><li>Inicio</li></Link>
             {/*
             <li className="cursos">
               Cursos
