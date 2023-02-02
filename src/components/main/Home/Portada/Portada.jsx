@@ -10,11 +10,12 @@ const Portada = () => {
         <div className="portada">
           <div className="writing">
             <div className="title-writing">
-              <h1> HOLA, SOMOS METRICA!</h1>
+              <h1> ¡HOLA, SOMOS METRICA!</h1>
             </div>
             <div className="body-writing">
-              Una agencia de marketing digital enfocado 100% en los servicios
-              que brindamos con el fin de potenciar tu negocio al maximo.
+              Una agencia de marketing digital enfocada 100% en acompañarte y
+              colaborar con el éxito de tu negocio innovando y creativizando en
+              los servicios que tenemos para brindarte.
             </div>
           </div>
           <div className="image">
