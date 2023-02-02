@@ -292,8 +292,3 @@ p > span {
     overflow: hidden;
   }
 }
-@media (min-width: 300px) {
-  .icon {
-    margin-left: 10px;
-  }
-}
