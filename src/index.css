@@ -5,6 +5,10 @@ body {
   font-family: "CustomFont";
   src: url("./components/fonts/izmir.otf");
 }
+@font-face {
+  font-family: "CustomFont2";
+  src: url("./components/fonts/inter.ttf");
+}
 * {
   padding: 0;
   margin: 0;
