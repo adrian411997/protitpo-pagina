@@ -20,17 +20,14 @@ const Portada = () => {
           <div className="image">
             <img
               src={
-                "https://res.cloudinary.com/dni5cjwpu/image/upload/v1673546471/metrica/emocion_mb55ev.png"
+                "https://res.cloudinary.com/dni5cjwpu/image/upload/v1675367133/metrica/Recurso_6_h6o3dm.png"
               }
               alt="emocion"
             />
-            
-            
           </div>
         </div>
       </div>
     </div>
-    
   );
 };
 
