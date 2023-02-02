@@ -92,4 +92,14 @@
     height: 100vh;
     width: 100%;
   }
+  .body-writing {
+    text-align: center;
+    width: 100%;
+  }
+  .title-writing {
+    text-align: center;
+  }
+  .writing .title-writing h1 {
+    font-size: 25px;
+  }
 }
