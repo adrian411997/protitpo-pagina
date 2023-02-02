@@ -1,6 +1,14 @@
 /* Main Div */
 .welcomePart {
   height: 100vh;
+  background: rgb(83, 175, 253);
+  background: linear-gradient(
+    3deg,
+    rgba(83, 175, 253, 1) 0%,
+    rgba(83, 241, 253, 1) 100%
+  );
+
+  background-size: cover;
 }
 /* content */
 .content {
@@ -30,11 +38,62 @@
   flex-direction: column;
   justify-content: center;
   animation: fadeInLeft 1s ease-in-out;
+  width: 70%;
 }
 .body-writing {
   padding: 10px 0px;
   font-size: 20px;
   line-height: 2;
+  width: 70%;
+}
+.title-writing {
+  padding: 20px 0px;
+}
+.writing .title-writing h1 {
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal,
+    "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+  font-size: 50px;
+  color: rgb(62, 65, 62);
+  letter-spacing: 10px;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: 700;
+}
+h3 {
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal,
+    "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 15.4px;
+}
+p {
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal,
+    "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+blockquote {
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal,
+    "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+pre {
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal,
+    "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5714px;
 }
 /* Animations */
 @keyframes fadeInRight {
