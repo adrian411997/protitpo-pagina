@@ -50,6 +50,9 @@
   align-items: center;
   margin: 0px 10px;
 }
+.navbar > a {
+  padding-left: 10px;
+}
 .plans,
 .team {
   padding: 20px;
@@ -210,6 +213,7 @@ p > span {
   .navbar > li > svg {
     display: none;
   }
+
   .submenu {
     position: static;
     width: 0px;
@@ -286,5 +290,10 @@ p > span {
   }
   .header {
     overflow: hidden;
+  }
+}
+@media (min-width: 300px) {
+  .icon {
+    margin-left: 10px;
   }
 }
