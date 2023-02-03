@@ -226,7 +226,6 @@
   .image {
     display: block;
     width: 100%;
-    background-color: aqua;
   }
   .portada {
     flex-direction: column;
