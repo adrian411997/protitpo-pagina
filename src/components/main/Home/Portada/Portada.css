@@ -241,7 +241,17 @@
     display: none;
   }
 }
-
+@media (max-width: 380px) and (min-height: 590px) {
+  .burbuja:nth-child(3) {
+    display: none;
+  }
+  .burbuja:nth-child(4) {
+    display: none;
+  }
+  .burbuja:nth-child(5) {
+    display: none;
+  }
+}
 @media (max-width: 380px) and (min-height: 666px) {
   .title-writing h1 {
     font-size: 15px;
