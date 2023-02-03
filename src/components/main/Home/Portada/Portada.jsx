@@ -29,11 +29,7 @@ const Portada = () => {
         </div>
       </div>
       <div className="burbujas">
-        <div className="burbuja"></div> <div className="burbuja prim"></div>
-        <div className="burbuja"></div> <div className="burbuja seg"></div>
-        <div className="burbuja"></div> <div className="burbuja ter"></div>
-        <div className="burbuja"></div> <div className="burbuja cuart"></div>
-        <div className="burbuja"></div> <div className="burbuja quin"></div>
+        <div className="burbuja"></div> <div className="burbuja "></div>
       </div>
     </div>
   );
