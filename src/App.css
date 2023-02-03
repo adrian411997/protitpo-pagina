@@ -2,9 +2,7 @@ a {
   text-decoration: none;
   color: black;
 }
-.homepage-container {
-  position: relative;
-}
+
 .icon-whatsapp {
   position: fixed;
   top: 850px;
