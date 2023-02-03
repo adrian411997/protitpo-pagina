@@ -233,6 +233,8 @@
   .portada {
     flex-direction: column;
   }
+}
+@media only screen and (min-width: 412px) and (max-width: 767px) {
   .ter,
   .cuart,
   .quin {
