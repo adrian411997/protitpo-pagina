@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
 
@@ -8,6 +8,17 @@ const Header = () => {
   const [submenuShowPlans, setSubmenuShow] = useState("");
   const [submenuShowUs, setSubmenuShowUs] = useState("");
   const [isDesplegado, setIsDesplegado] = useState(false);
+  const [changeBackGround, setChangeBackground] = useState("");
+  const changeColor = () => {
+    if (document.documentElement.scrollTop > 0) {
+      setChangeBackground("sticky");
+    } else {
+      setChangeBackground("");
+    }
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", changeColor);
+  }, []);
   const classModified = () => {
     if (!isDesplegado) {
       setAddClass("responsive-action");
@@ -37,7 +48,7 @@ const Header = () => {
     }
   };
   return (
-    <div className={`header `}>
+    <div className={`header ${changeBackGround} `}>
       <div className="icon">
         <Link to="/">
           <img
@@ -85,7 +96,9 @@ const Header = () => {
       <div className={`pest ${addClass}`}>
         <div className="enlaces">
           <ul className="navbar">
-            <Link to="/" ><li>Inicio</li></Link>
+            <Link to="/">
+              <li>Inicio</li>
+            </Link>
             {/*
             <li className="cursos">
               Cursos
