@@ -9,7 +9,7 @@ const Reunion = () => {
           <div className="reunion-text">
             <h1>Agenda una reunion con nosotros!</h1>
             <p>
-              Todavia no te decides? No hay problema! Estamos aqui para despejar
+              ¿Todavia no te decides? No hay problema! Estamos aqui para despejar
               todas tus dudas y guiarte en todo momento.
             </p>
             <button className="reunion-button">
