@@ -18,7 +18,7 @@ const Servicios2 = () => {
             height={150}
           />
           <div className="text-title2">
-            <h1>Creacion de paginas webs </h1>
+            <h1>Marketing Digital </h1>
           </div>
           <div>
             <button className="button-service2">CLICK PARA MAS INFO</button>
@@ -34,7 +34,7 @@ const Servicios2 = () => {
             height={150}
           />
           <div className="text-title2">
-            <h1>Cibersereguridad y proteccion</h1>
+            <h1>Sitios Web</h1>
           </div>
           <div>
             <button className="button-service2">CLICK PARA MAS INFO</button>
@@ -50,7 +50,7 @@ const Servicios2 = () => {
             height={150}
           />
           <div className="text-title2">
-            <h1>Instalacion de infraestructura</h1>
+            <h1>Diseño Grafico</h1>
           </div>
           <div>
             <button className="button-service2">CLICK PARA MAS INFO</button>
