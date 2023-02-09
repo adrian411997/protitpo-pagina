@@ -1,0 +1,48 @@
+.reunion-content {
+  color: white;
+  background-color: rgb(32, 33, 36);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0px;
+}
+.reunion {
+  width: 80%;
+  display: flex;
+}
+.reunion-text {
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50%;
+  padding: 0px 20px;
+}
+.reunion-text p {
+  padding: 10px 0px;
+}
+.reunion-icon {
+  width: 50%;
+  text-align: center;
+}
+.reunion-button {
+  margin-top: 10px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 0.5em;
+  color: white;
+  font-size: 15px;
+  padding: 15px 20px;
+  transition: 0.5s ease-in-out;
+}
+.reunion-button a {
+  color: white;
+}
+.reunion-button:hover {
+  background-color: white;
+  transition: 0.5s ease-in-out;
+  border: 1px solid black;
+}
+.reunion-button:hover a {
+  color: black;
+}

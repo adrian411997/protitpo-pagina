@@ -3,6 +3,7 @@ import Caracteristicas from "./Caracteristicas/Caracteristicas";
 import Portada from "./Portada/Portada";
 import Footer from "../../Footer/Footer";
 import Servicios2 from "./Servicios/Servicios2";
+import Reunion from "./Reunion/Reunion";
 
 const Home = () => {
   //EN ESTE ARCHIVO JUNTAREMOS TODOS LOS COMPONENTES PARA LA PAGINA INICIAL
@@ -11,6 +12,7 @@ const Home = () => {
       <Portada />
       <Servicios2 />
       <Caracteristicas />
+      <Reunion />
       <Footer />
       <div className="icon-whatsapp">
         <div className="images-icon-wpp">
