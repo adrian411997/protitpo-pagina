@@ -13,7 +13,13 @@ const Reunion = () => {
               todas tus dudas y guiarte en todo momento.
             </p>
             <button className="reunion-button">
-              <a href="https://calendly.com/adrian-mart41197/30min">Agendar</a>
+              <a
+                href="https://calendly.com/adrian-mart41197/30min"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                Agendar
+              </a>
             </button>
           </div>
           <div className="reunion-icon">
