@@ -46,3 +46,30 @@
 .reunion-button:hover a {
   color: black;
 }
+@media (max-width: 1190px) {
+  .reunion-content {
+    flex-direction: column;
+  }
+  .reunion-icon {
+    display: none;
+  }
+  .reunion-text {
+    width: 100%;
+
+    align-items: center;
+    justify-content: center;
+  }
+  .reunion-text h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .reunion-text p {
+    text-align: center;
+    font-size: 10px;
+  }
+  .reunion {
+    width: 80%;
+
+    display: flex;
+  }
+}
