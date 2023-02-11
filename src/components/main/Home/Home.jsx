@@ -4,13 +4,15 @@ import Portada from "./Portada/Portada";
 import Footer from "../../Footer/Footer";
 import Servicios2 from "./Servicios/Servicios2";
 import Reunion from "./Reunion/Reunion";
+import Portada2 from "./Portada/Portada2";
+import Servicios3 from "./Servicios/Servicios3";
 
 const Home = () => {
   //EN ESTE ARCHIVO JUNTAREMOS TODOS LOS COMPONENTES PARA LA PAGINA INICIAL
   return (
     <div className="homepage-container">
-      <Portada />
-      <Servicios2 />
+      <Portada2 />
+      <Servicios3 />
       <Caracteristicas />
       <Reunion />
       <Footer />

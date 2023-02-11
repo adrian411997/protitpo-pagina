@@ -1,7 +1,8 @@
 .header {
   display: flex;
   border: none;
-  background-color: transparent;
+  /*background-color: transparent*/
+  background-color: rgba(182, 175, 175, 0.795);
   border-bottom: 1px solid black;
   position: fixed;
   top: 0;
@@ -293,7 +294,7 @@ p > span {
     overflow: hidden;
   }
 }
-.sticky {
+/*.sticky {
   background-color: rgb(82, 175, 253);
   transition: 0.5s ease-in-out;
-}
+}*/
