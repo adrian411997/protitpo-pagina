@@ -1,0 +1,89 @@
+.part-service3 {
+  background-color: rgb(247, 247, 247);
+}
+.intro-servicio {
+  width: 100%;
+  background-color: rgb(39, 89, 98);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.servicio-writing {
+  width: 60%;
+  padding: 30px 0px;
+  font-family: "CustomFont2";
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.Servicio-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0px;
+}
+.servicio-content {
+  padding: 20px 0px;
+  text-align: center;
+}
+.list-cards-servicios2 {
+  width: 90%;
+  display: flex;
+}
+.servicio-card {
+  height: 500px;
+  width: 33%;
+
+  border-radius: 1em;
+  margin: 0px 10px;
+}
+
+.marketing {
+  background-image: linear-gradient(
+      rgba(63, 59, 59, 0.5),
+      rgba(75, 73, 73, 0.5)
+    ),
+    url("../../../images/marketing.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card-service-content {
+  text-align: center;
+  padding: 30px 10px;
+  color: white;
+  font-size: 20px;
+  height: 70%;
+}
+.card-service-button {
+  height: 30%;
+  display: flex;
+  margin-left: 30px;
+  padding: 10px 0px;
+  color: white;
+}
+.card-service-button a button {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50%;
+  text-align: center;
+  padding: 1px 3px;
+  margin-left: 10px;
+}
+.web-desing {
+  background-image: linear-gradient(
+      rgba(63, 59, 59, 0.5),
+      rgba(75, 73, 73, 0.5)
+    ),
+    url("../../../images/diseño.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.graphic-design {
+  background-image: linear-gradient(
+      rgba(63, 59, 59, 0.5),
+      rgba(75, 73, 73, 0.5)
+    ),
+    url("../../../images/graphic.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
