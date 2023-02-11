@@ -163,7 +163,7 @@ p > span {
   }
   .responseive-icon button {
     border: none;
-    background-color: rgb(228, 228, 228);
+    background-color: transparent;
     cursor: pointer;
   }
   .header {
