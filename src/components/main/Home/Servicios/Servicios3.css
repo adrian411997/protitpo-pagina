@@ -33,7 +33,6 @@
 .servicio-card {
   height: 500px;
   width: 33%;
-
   border-radius: 1em;
   margin: 0px 10px;
 }
@@ -45,6 +44,7 @@
     ),
     url("../../../images/marketing.jpeg");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 .card-service-content {
@@ -77,6 +77,7 @@
     url("../../../images/diseño.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .graphic-design {
   background-image: linear-gradient(
@@ -86,4 +87,16 @@
     url("../../../images/graphic.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+}
+@media (max-width: 1080px) {
+  .list-cards-servicios2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .servicio-card {
+    width: 80%;
+    margin: 10px 0px;
+  }
 }
