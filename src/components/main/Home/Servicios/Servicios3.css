@@ -3,7 +3,7 @@
 }
 .intro-servicio {
   width: 100%;
-  background-color: rgb(39, 89, 98);
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,7 +20,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px 0px;
+  padding: 120px 0px;
 }
 .servicio-content {
   padding: 20px 0px;
@@ -29,14 +29,35 @@
 .list-cards-servicios2 {
   width: 90%;
   display: flex;
+  position: relative;
+  z-index: 1;
 }
 .servicio-card {
   height: 500px;
   width: 33%;
-  border-radius: 1em;
   margin: 0px 10px;
+  position: relative;
+  z-index: 1;
 }
-
+.add {
+  position: absolute;
+  width: 100px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 1em;
+  z-index: 1;
+  top: 5%;
+  left: 15%;
+}
+.card-service-content {
+  text-align: center;
+  padding: 30px 10px;
+  color: white;
+  font-size: 20px;
+  height: 70%;
+  position: relative;
+  z-index: 1;
+}
 .marketing {
   background-image: linear-gradient(
       rgba(63, 59, 59, 0.5),
@@ -47,14 +68,9 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-.card-service-content {
-  text-align: center;
-  padding: 30px 10px;
-  color: white;
-  font-size: 20px;
-  height: 70%;
-}
+
 .card-service-button {
+  display: none;
   height: 30%;
   display: flex;
   margin-left: 30px;
@@ -89,6 +105,32 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.facebook-photo {
+  transform: rotate(30deg);
+  background-image: url("https://res.cloudinary.com/dni5cjwpu/image/upload/v1676157210/metrica/facebook-g54d1b4376_1280_regh9u.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease-in-out;
+}
+.instagram-photo {
+  background-image: url("https://res.cloudinary.com/dni5cjwpu/image/upload/v1676158129/metrica/Pngtree_instagram_icon_8704817_e60ofm.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease-in-out;
+}
+.twitter-photo {
+  transform: rotate(-30deg);
+}
+.servicio-card:hover > .facebook-photo {
+  z-index: 0;
+  transform: translate(50px, -140px) rotate(30deg);
+  transition: 0.5s ease-in-out;
+}
+.list-cards-servicios2:hover > .instagram-photo {
+  transform: translate(0, -150px);
+  transition: 0.5s ease-in-out;
+}
 @media (max-width: 1080px) {
   .list-cards-servicios2 {
     flex-direction: column;
@@ -100,7 +142,7 @@
     margin: 10px 0px;
   }
   .servicio-writing {
-    width: 90%;
+    width: 9 0%;
     font-size: 25px;
   }
 }

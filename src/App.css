@@ -5,11 +5,12 @@ a {
 
 .icon-whatsapp {
   position: fixed;
-  top: 850px;
+  top: 750px;
   left: 25px;
   cursor: pointer;
   display: flex;
   align-items: center;
+  z-index: 2;
 }
 .action {
   width: 135px;
