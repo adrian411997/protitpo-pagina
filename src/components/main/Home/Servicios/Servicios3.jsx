@@ -19,6 +19,9 @@ const Servicios3 = () => {
       <div className="Servicio-cards">
         <div className="list-cards-servicios2">
           <div className="servicio-card marketing">
+            <div className="add facebook-photo"></div>
+            <div className="add instagram-photo"></div>
+            <div className="add twitter-photo"></div>
             <div className="card-service-content">
               <p>¿Tu marca necesita un empujon para imponer presencia?</p>
             </div>
