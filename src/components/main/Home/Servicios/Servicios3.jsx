@@ -13,40 +13,43 @@ const Servicios3 = () => {
       </div>
       <div className="servicio-content">
         <div className="servicio-title">
-          <h2>Para te que podamos ayudar, debes identificar tu problema:</h2>
+          <h2>¿Que quieres mi bro?</h2>
+          <h3>Pase nomas al fondo a la derecha</h3>
         </div>
       </div>
       <div className="Servicio-cards">
         <div className="list-cards-servicios2">
-          <div className="servicio-card marketing">
+          <div className="servicio-card">
             <div className="add facebook-photo"></div>
             <div className="add instagram-photo"></div>
             <div className="add twitter-photo"></div>
-            <div className="card-service-content">
-              <p>¿Tu marca necesita un empujon para imponer presencia?</p>
-            </div>
-            <div className="card-service-button">
-              <p>Vea nuestra solucion</p>
-              <a href="/kiko">
-                <button>
-                  <svg
-                    fill="#ffff"
-                    viewBox="0 0 1024 1024"
-                    width={10}
-                    height={10}
-                  >
-                    <path d="M256 102.4v819.2l512-409.6L256 102.4z" />
-                  </svg>
-                </button>
-              </a>
+            <div className="adorno likeit"></div>
+            <div className="adorno likeit2"></div>
+            <div className="adorno likeit3"></div>
+            <div className="marketing">
+              <div className="card-service-content">
+                <p>¿Necesitas potenciar su presencia en sus redes sociales?</p>
+              </div>
+              <div className="card-service-button">
+                <p>Vea nuestra solucion</p>
+                <a href="/kiko">
+                  <button>
+                    <svg
+                      fill="#ffff"
+                      viewBox="0 0 1024 1024"
+                      width={10}
+                      height={10}
+                    >
+                      <path d="M256 102.4v819.2l512-409.6L256 102.4z" />
+                    </svg>
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
           <div className="servicio-card web-desing">
             <div className="card-service-content">
-              <p>
-                ¿Quiere una pagina web para expandir su negocio pero no tiene
-                los conocimientos?
-              </p>
+              <p>¿Quieres tener tu propio sitio web profesional?</p>
             </div>
             <div className="card-service-button">
               <p>Vea nuestra solucion</p>
@@ -66,10 +69,9 @@ const Servicios3 = () => {
           </div>{" "}
           <div className="servicio-card graphic-design">
             <div className="card-service-content">
-              <p>
-                ¿Buscas una marca que te identifique pero no sabes por donde
-                comenzar?
-              </p>
+              <p>¿Buscas una marca que</p>
+              <p> te identifique pero no sabes</p>
+              <p> por donde comenzar?</p>
             </div>
             <div className="card-service-button">
               <p>Vea nuestra solucion</p>

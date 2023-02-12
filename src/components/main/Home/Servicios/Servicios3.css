@@ -20,7 +20,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 120px 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .servicio-content {
   padding: 20px 0px;
@@ -43,17 +44,88 @@
   position: absolute;
   width: 100px;
   height: 200px;
-  border: 1px solid black;
+
   border-radius: 1em;
-  z-index: 1;
+  z-index: 0;
   top: 5%;
-  left: 15%;
+  left: 35%;
+}
+.facebook-photo {
+  transform: rotate(30deg);
+  background-image: url("https://res.cloudinary.com/dni5cjwpu/image/upload/v1676157210/metrica/facebook-g54d1b4376_1280_regh9u.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease-in-out;
+}
+.adorno {
+  position: absolute;
+  width: 60px;
+  height: 50px;
+  top: 5%;
+  left: 35%;
+}
+.instagram-photo {
+  background-image: url("https://res.cloudinary.com/dni5cjwpu/image/upload/v1676169066/metrica/celu_ins_bqv3s1.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease-in-out;
+}
+.twitter-photo {
+  transform: rotate(-30deg);
+  background-image: url("https://res.cloudinary.com/dni5cjwpu/image/upload/v1676168835/metrica/twitter_xq0jjv.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease-in-out;
+}
+.likeit {
+  background-image: url("https://res.cloudinary.com/dni5cjwpu/image/upload/v1676168440/metrica/me-gusta-el-corazon-de-instagram_kjnwnz.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease-in-out;
+}
+.likeit2 {
+  background-image: url("https://res.cloudinary.com/dni5cjwpu/image/upload/v1676169472/metrica/pngwing.com_3_utyap7.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease-in-out;
+}
+.likeit3 {
+  background-image: url("https://res.cloudinary.com/dni5cjwpu/image/upload/v1676169761/metrica/pngwing.com_4_k8zuv0.png");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease-in-out;
+}
+.servicio-card:hover > .facebook-photo {
+  z-index: 0;
+  transform: translate(50px, -140px) rotate(30deg);
+  transition: 0.5s ease-in-out;
+}
+.servicio-card:hover > .instagram-photo {
+  transform: translate(0, -150px);
+  transition: 0.5s ease-in-out;
+}
+.servicio-card:hover > .twitter-photo {
+  z-index: 0;
+  transform: translate(-50px, -140px) rotate(-30deg);
+  transition: 0.5s ease-in-out;
+}
+.servicio-card:hover > .likeit3 {
+  transform: translate(-100px, -180px) rotate(-30deg);
+  transition: 0.5s ease-in-out;
+}
+.servicio-card:hover > .likeit2 {
+  transform: translate(140px, -190px) rotate(30deg);
+  transition: 0.5s ease-in-out;
+}
+.servicio-card:hover > .likeit {
+  transform: translate(20px, -210px);
+  transition: 0.5s ease-in-out;
 }
 .card-service-content {
   text-align: center;
   padding: 30px 10px;
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   height: 70%;
   position: relative;
   z-index: 1;
@@ -67,6 +139,9 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  height: 100%;
+  z-index: 1;
+  position: relative;
 }
 
 .card-service-button {
@@ -77,6 +152,7 @@
   padding: 10px 0px;
   color: white;
 }
+
 .card-service-button a button {
   background-color: transparent;
   border: 1px solid white;
@@ -106,31 +182,10 @@
   background-position: center;
 }
 
-.facebook-photo {
-  transform: rotate(30deg);
-  background-image: url("https://res.cloudinary.com/dni5cjwpu/image/upload/v1676157210/metrica/facebook-g54d1b4376_1280_regh9u.png");
-  background-size: cover;
-  background-position: center;
-  transition: 0.5s ease-in-out;
+.servicio-title h2 {
+  padding: 10px 0px;
 }
-.instagram-photo {
-  background-image: url("https://res.cloudinary.com/dni5cjwpu/image/upload/v1676158129/metrica/Pngtree_instagram_icon_8704817_e60ofm.png");
-  background-size: cover;
-  background-position: center;
-  transition: 0.5s ease-in-out;
-}
-.twitter-photo {
-  transform: rotate(-30deg);
-}
-.servicio-card:hover > .facebook-photo {
-  z-index: 0;
-  transform: translate(50px, -140px) rotate(30deg);
-  transition: 0.5s ease-in-out;
-}
-.list-cards-servicios2:hover > .instagram-photo {
-  transform: translate(0, -150px);
-  transition: 0.5s ease-in-out;
-}
+
 @media (max-width: 1080px) {
   .list-cards-servicios2 {
     flex-direction: column;
