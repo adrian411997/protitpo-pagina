@@ -39,12 +39,18 @@ a {
   border: 2px solid white;
   border-radius: 50%;
 }
+@media (max-height: 750px) {
+  .icon-whatsapp {
+    top: calc(100vh - 100px);
+    left: 15px;
+  }
+}
 @media (max-width: 450px) {
   .action {
     display: none;
   }
   .icon-whatsapp {
-    top: calc(100vh - 150px);
+    top: calc(100vh - 50px);
     left: 15px;
   }
 }
