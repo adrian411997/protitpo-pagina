@@ -353,10 +353,10 @@
 }
 @media (max-width: 290px) and (min-height: 650px) {
   .writing .title-writing h1 {
-    font-size: 20px !important;
+    font-size: 18px !important;
   }
   .body-writing {
-    font-size: 15px;
+    font-size: 13px;
   }
   .image {
     display: block;

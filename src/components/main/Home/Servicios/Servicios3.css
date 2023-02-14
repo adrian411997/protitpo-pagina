@@ -191,13 +191,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 95%;
   }
   .servicio-card {
-    width: 80%;
+    width: 95%;
     margin: 10px 0px;
   }
   .servicio-writing {
-    width: 9 0%;
-    font-size: 25px;
+    width: 90%;
+    font-size: 20px;
+  }
+  .adorno {
+    display: none;
+  }
+  .add {
+    display: none;
   }
 }

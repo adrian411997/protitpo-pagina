@@ -108,19 +108,21 @@
 }
 
 /* SUBMENU*/
-
+.back {
+  display: none;
+}
 .submenu > li:hover {
   background-color: grey;
 }
 .submenu {
-  animation: fadeOut 2.5s;
+  list-style: none;
   position: absolute;
   list-style: none;
   width: 0px;
   height: 0px;
-  height: max-content;
   top: 65px;
   background-color: #ffff;
+  height: max-content;
 }
 .submenu > li {
   display: none;
@@ -196,10 +198,16 @@ p > span {
     height: 0px;
     width: 0px;
     display: none;
-    animation: hiding 0.5s ease-in-out;
+  }
+  .navbar > a > li::after,
+  .navbar > li::after,
+  .navbar > li > a::after,
+  .navbar > a::after {
+    background-color: transparent;
   }
   .enlaces {
-    width: 90%;
+    width: 100%;
+    background-color: rgba(111, 181, 201, 0.9);
   }
   .responseive-icon {
     width: 60%;
@@ -207,6 +215,7 @@ p > span {
     justify-content: flex-end;
     align-items: center;
   }
+
   .responseive-icon button {
     border: none;
     background-color: transparent;
@@ -217,11 +226,19 @@ p > span {
   }
   .icon {
     border: none;
+    width: 35%;
+  }
+  .pacentrar {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
   }
   .responsive-action {
-    height: 100%;
+    visibility: visible;
+    height: 100vh;
     width: 100%;
-    display: flex;
+    display: block;
+    flex-direction: column;
     animation: show 0.5s ease-in-out;
   }
   @keyframes show {
@@ -231,7 +248,7 @@ p > span {
       display: none;
     }
     to {
-      height: 210px;
+      height: 100vh;
       opacity: 1;
       display: flex;
     }
@@ -243,7 +260,6 @@ p > span {
     justify-content: flex-start;
     align-items: flex-start;
     width: 100%;
-    margin-left: 30px;
   }
   .navbar li {
     display: flex;
@@ -254,6 +270,17 @@ p > span {
     width: 100%;
     cursor: default;
   }
+  .navbar > li,
+  .navbar > a,
+  .navbar > a > li {
+    display: block;
+    width: 100%;
+    color: white;
+    margin: 0px;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 21px;
+  }
   .plans,
   .team {
     padding: 0;
@@ -263,11 +290,10 @@ p > span {
   }
 
   .submenu {
-    position: static;
     width: 0px;
     height: 0px;
     display: none;
-    transition: 0.2s;
+    transition: 0.5s;
   }
   .submenu > li {
     display: block;
@@ -275,44 +301,103 @@ p > span {
 
   .responsive-div {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    padding-left: 10px;
   }
   .responsive-div button {
-    background-color: white;
+    background-color: transparent;
     border-radius: 50%;
     border: none;
     cursor: pointer;
   }
   .submenu > li {
     cursor: pointer;
-    padding-left: 10px;
   }
   .submenu > li:hover {
     background-color: grey;
   }
   .show-submenu {
-    width: 90%;
-    height: 100%;
-    display: block;
-    margin-left: 20px;
-    background-color: rgb(228, 228, 228);
-    animation: nothingToSee 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    margin: 0px;
+    height: 95vh;
+    top: -120px;
+    background-color: rgb(111, 181, 201);
+    transition: 1s ease;
+    z-index: 1;
   }
-  @keyframes nothingToSee {
-    from {
-      height: 0px;
-      opacity: 0;
-      display: none;
-    }
-    to {
-      height: 120px;
-      opacity: 1;
-      display: block;
-    }
+
+  .icon-responsive {
+    display: block;
+  }
+  .icon-big {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    height: 50%;
+    margin: 150px 0px;
+    padding-bottom: 100px;
+  }
+  .navbar > li,
+  .navbar > a,
+  .navbar > a > li {
+    display: block;
+    width: 100%;
+    color: white;
+    margin: 0px;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 21px;
+  }
+  .responsive-div {
+    width: 100%;
+    display: block;
+  }
+
+  .show-submenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    margin: 0px;
+    height: 95vh;
+    top: -135px;
+    background-color: rgb(111, 181, 201);
+    transition: 1s ease;
+    z-index: 1;
+  }
+  .back {
+    display: block;
+    background-color: transparent;
+    border: none;
+  }
+  .show-submenu > li > a > div {
+    padding-left: 10px;
+    color: white;
+  }
+  .contact-button-header {
+    font-size: 21px;
   }
 }
 @media (max-width: 450px) {
+  .pacentrar {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .icon {
     width: 35%;
   }
@@ -325,19 +410,59 @@ p > span {
   .icon-big {
     display: none;
   }
+  .enlaces {
+    height: 100%;
+    padding-bottom: 100px;
+  }
   .navbar {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
     width: 100%;
-    margin-left: 10px;
+    position: relative;
+    height: 50%;
+    margin: 150px 0px;
+    padding-bottom: 100px;
+  }
+  .navbar > li,
+  .navbar > a,
+  .navbar > a > li {
+    display: block;
+    width: 100%;
+    color: white;
+    margin: 0px;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 21px;
   }
   .responsive-div {
-    width: 90%;
+    width: 100%;
+    display: block;
   }
   .header {
     overflow: hidden;
+  }
+
+  .show-submenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    margin: 0px;
+    height: 95vh;
+    top: -135px;
+    background-color: rgb(111, 181, 201);
+    transition: 1s ease;
+    z-index: 1;
+  }
+  .back {
+    display: block;
+  }
+  .show-submenu > li > a > div {
+    padding-left: 10px;
+    color: white;
   }
 }
 .sticky {

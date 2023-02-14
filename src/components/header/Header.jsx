@@ -9,11 +9,14 @@ const Header = () => {
   const [submenuShowUs, setSubmenuShowUs] = useState("");
   const [isDesplegado, setIsDesplegado] = useState(false);
   const [changeBackGround, setChangeBackground] = useState("");
+  const [color, setColor] = useState("#000");
   const changeColor = () => {
     if (document.documentElement.scrollTop > 0) {
       setChangeBackground("sticky");
+      setColor("#ffff");
     } else {
       setChangeBackground("");
+      setColor("#000");
     }
   };
   useEffect(() => {
@@ -24,6 +27,7 @@ const Header = () => {
       setAddClass("responsive-action");
       setIsDesplegado(true);
       setSubmenuIndicator("");
+      console.log(isDesplegado);
     } else {
       setAddClass("");
       setIsDesplegado(false);
@@ -32,13 +36,13 @@ const Header = () => {
       setSubmenuShowUs("");
     }
   };
+
   const submenuShow = () => {
     if (submenuShowPlans === "") {
       setSubmenuShow("show-submenu");
     } else {
       setSubmenuShow("");
     }
-    console.log(submenuShowPlans);
   };
   const changeShowUs = () => {
     if (submenuShowUs === "") {
@@ -51,17 +55,7 @@ const Header = () => {
     <div className={`header ${changeBackGround} `}>
       <div className="pacentrar">
         <div className="icon">
-          <Link to="/">
-            <img
-              className="icon-big"
-              src={
-                "https://res.cloudinary.com/dni5cjwpu/image/upload/v1676164851/metrica/logofluor_nyajnu.png"
-              }
-              alt="instagram"
-              width={150}
-              height={75}
-            />
-          </Link>
+          <Link to="/"></Link>
           <Link to="/">
             <img
               className="icon-responsive"
@@ -76,21 +70,33 @@ const Header = () => {
         <div className="responseive-icon">
           {isDesplegado ? (
             <button onClick={classModified}>
-              <img
-                src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1675117049/metrica/298889_x_icon_trfhg7.png"
-                width={25}
-                height={25}
-                alt="responsive"
-              />
+              <svg
+                viewBox="0 0 52.001 52.001"
+                width={20}
+                height={20}
+                fill={color}
+              >
+                <g>
+                  <g>
+                    <path
+                      d="M47.743,41.758L33.955,26.001l13.788-15.758c2.343-2.344,2.343-6.143,0-8.486
+			c-2.345-2.343-6.144-2.342-8.486,0.001L26,16.91L12.743,1.758C10.4-0.584,6.602-0.585,4.257,1.757
+			c-2.343,2.344-2.343,6.143,0,8.486l13.788,15.758L4.257,41.758c-2.343,2.343-2.343,6.142-0.001,8.485
+			c2.344,2.344,6.143,2.344,8.487,0L26,35.091l13.257,15.152c2.345,2.344,6.144,2.344,8.487,0
+			C50.086,47.9,50.086,44.101,47.743,41.758z"
+                    />
+                  </g>
+                </g>
+              </svg>
             </button>
           ) : (
             <button onClick={classModified}>
-              <img
-                src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1675116509/metrica/menu_bi7ptb.png"
-                width={25}
-                height={25}
-                alt="responsive"
-              />
+              <svg width="25" height="25" viewBox="0 0 12 16">
+                <path
+                  fill={color}
+                  d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"
+                />
+              </svg>
             </button>
           )}
         </div>
@@ -131,6 +137,13 @@ const Header = () => {
                   <>Servicios</>
                 )}
                 <ul className={`submenu ${submenuShowPlans}`}>
+                  <button onClick={submenuShow} className="back">
+                    <img
+                      src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1676340396/metrica/pngwing.com_5_kmm4xm.png"
+                      alt=""
+                      width={25}
+                    />
+                  </button>
                   <li>
                     <Link to="/marketing">
                       <div>Marketing</div>
@@ -168,6 +181,13 @@ const Header = () => {
                   <>Sobre Nosotros</>
                 )}
                 <ul className={`submenu ${submenuShowUs}`}>
+                  <button onClick={changeShowUs} className="back">
+                    <img
+                      src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1676340396/metrica/pngwing.com_5_kmm4xm.png"
+                      alt=""
+                      width={25}
+                    />
+                  </button>
                   <li>Método de Trabajo</li>
                   <li>
                     <Link to="/equipo">
