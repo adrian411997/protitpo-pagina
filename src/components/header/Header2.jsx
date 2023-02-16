@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const Header2 = () => {
   const [addClass, setAddClass] = useState("");
   const [submenuIndicator, setSubmenuIndicator] = useState("haveSubmenu");
   const [submenuShowPlans, setSubmenuShow] = useState("");
@@ -62,9 +62,10 @@ const Header = () => {
             <Link to="/">
               <img
                 className="icon-responsive"
-                src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1676164851/metrica/logofluor_nyajnu.png"
+                src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1676396010/metrica/Recurso_6_yewewu.png"
+                //src={"https://res.cloudinary.com/dni5cjwpu/image/upload/v1674247302/metrica/Recurso_4_aopmkj.png"}
                 alt="instagram"
-                width={150}
+                width={50}
                 height={50}
               />
             </Link>
@@ -109,6 +110,21 @@ const Header = () => {
               <Link to="/">
                 <li>Inicio</li>
               </Link>
+              {/*
+            <li className="cursos">
+              Cursos
+              <svg width={25} height={25} viewBox="0 0 24 24">
+                <path d="M12,15a1,1,0,0,1-.71-.29l-4-4A1,1,0,0,1,8.71,9.29L12,12.59l3.29-3.29a1,1,0,0,1,1.41,1.41l-4,4A1,1,0,0,1,12,15Z" />
+              </svg>
+              <ul className="submenu">
+                <li>Marketing</li>
+                <li>Programacion</li>
+                <li>Analista de datos</li>
+                <li>UX/UI</li>
+                <li>Videojuegos</li>
+              </ul>
+            </li>
+            */}
               <li className={`plans ${submenuIndicator}`}>
                 {isDesplegado ? (
                   <>
@@ -194,5 +210,4 @@ const Header = () => {
     </div>
   );
 };
-
-export default Header;
+export default Header2;

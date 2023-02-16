@@ -1,31 +1,24 @@
 import React from "react";
-import Header from "../../../header/Header";
+import Header2 from "../../../header/Header2";
 import "./Portada2.css";
 
 const Portada2 = () => {
   return (
     <div className="welcomePart">
-      <video muted loop autoPlay playsInline className="back-video">
-        <source src="https://res.cloudinary.com/dni5cjwpu/video/upload/v1676142026/metrica/04_sswnhg.mov" />
-      </video>
-      <Header />
+      <Header2 />
       <div className="content">
         <div className="portada">
           <div className="writing">
             <div className="title-writing">
               <h1> VINIMOS PARA LLEVARTE A LO MAS ALTO ¡SOMOS METRICA!</h1>
             </div>
-            <div className="body-writing">
-              Una agencia de marketing digital enfocada 100% en acompañarte y
-              colaborar con el éxito de tu negocio innovando y creativizando en
-              los servicios que tenemos para brindarte.
-            </div>
           </div>
           <div className="image">
             <img
               src={
-                "https://res.cloudinary.com/dni5cjwpu/image/upload/v1675367133/metrica/Recurso_6_h6o3dm.png"
+                "https://res.cloudinary.com/dni5cjwpu/image/upload/v1674244055/metrica/Recurso_2_t8unvy.png"
               }
+              width={700}
               alt="emocion"
             />
           </div>

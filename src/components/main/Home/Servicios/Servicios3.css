@@ -1,5 +1,5 @@
 .part-service3 {
-  background-color: rgb(247, 247, 247);
+  background: rgb(224, 225, 227);
 }
 .intro-servicio {
   width: 100%;
@@ -14,197 +14,153 @@
   font-family: "CustomFont2";
   color: white;
   text-align: center;
+}
+.servicio-writing h3 {
+  color: #2dbdff;
+  padding: 10px 0px;
   font-size: 30px;
 }
-.Servicio-cards {
+.servicio-writing p {
+  font-size: 25px;
+}
+.servicio-title {
+  padding-top: 20px;
+  color: #2dbdff;
+  width: 100%;
+  text-align: center;
+}
+.card-services-container {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
-.servicio-content {
-  padding: 20px 0px;
-  text-align: center;
-}
-.list-cards-servicios2 {
+.card-service-list {
   width: 90%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   display: flex;
-  position: relative;
-  z-index: 1;
+  margin: 30px 0px;
 }
-.servicio-card {
+.service-card {
+  width: 35%;
   height: 500px;
-  width: 33%;
-  margin: 0px 10px;
+  border: 1px solid black;
+  margin: 30px 70px;
+  box-shadow: -30px 30px 0px #9c7e83;
+  border-right: 3px solid #f79850;
+  border-top: 3px solid #f79850;
+  overflow: hidden;
   position: relative;
-  z-index: 1;
-}
-.add {
-  position: absolute;
-  width: 100px;
-  height: 200px;
-
-  border-radius: 1em;
-  z-index: 0;
-  top: 5%;
-  left: 35%;
-}
-.facebook-photo {
-  transform: rotate(30deg);
-  background-image: url("https://res.cloudinary.com/dni5cjwpu/image/upload/v1676157210/metrica/facebook-g54d1b4376_1280_regh9u.png");
-  background-size: cover;
-  background-position: center;
-  transition: 0.5s ease-in-out;
-}
-.adorno {
-  position: absolute;
-  width: 60px;
-  height: 50px;
-  top: 5%;
-  left: 35%;
-}
-.instagram-photo {
-  background-image: url("https://res.cloudinary.com/dni5cjwpu/image/upload/v1676169066/metrica/celu_ins_bqv3s1.png");
-  background-size: cover;
-  background-position: center;
-  transition: 0.5s ease-in-out;
-}
-.twitter-photo {
-  transform: rotate(-30deg);
-  background-image: url("https://res.cloudinary.com/dni5cjwpu/image/upload/v1676168835/metrica/twitter_xq0jjv.png");
-  background-size: cover;
-  background-position: center;
-  transition: 0.5s ease-in-out;
-}
-.likeit {
-  background-image: url("https://res.cloudinary.com/dni5cjwpu/image/upload/v1676168440/metrica/me-gusta-el-corazon-de-instagram_kjnwnz.png");
-  background-size: cover;
-  background-position: center;
-  transition: 0.5s ease-in-out;
-}
-.likeit2 {
-  background-image: url("https://res.cloudinary.com/dni5cjwpu/image/upload/v1676169472/metrica/pngwing.com_3_utyap7.png");
-  background-size: cover;
-  background-position: center;
-  transition: 0.5s ease-in-out;
-}
-.likeit3 {
-  background-image: url("https://res.cloudinary.com/dni5cjwpu/image/upload/v1676169761/metrica/pngwing.com_4_k8zuv0.png");
-  background-size: cover;
-  background-position: center;
-  transition: 0.5s ease-in-out;
-}
-.servicio-card:hover > .facebook-photo {
-  z-index: 0;
-  transform: translate(50px, -140px) rotate(30deg);
-  transition: 0.5s ease-in-out;
-}
-.servicio-card:hover > .instagram-photo {
-  transform: translate(0, -150px);
-  transition: 0.5s ease-in-out;
-}
-.servicio-card:hover > .twitter-photo {
-  z-index: 0;
-  transform: translate(-50px, -140px) rotate(-30deg);
-  transition: 0.5s ease-in-out;
-}
-.servicio-card:hover > .likeit3 {
-  transform: translate(-100px, -180px) rotate(-30deg);
-  transition: 0.5s ease-in-out;
-}
-.servicio-card:hover > .likeit2 {
-  transform: translate(140px, -190px) rotate(30deg);
-  transition: 0.5s ease-in-out;
-}
-.servicio-card:hover > .likeit {
-  transform: translate(20px, -210px);
-  transition: 0.5s ease-in-out;
-}
-.card-service-content {
-  text-align: center;
-  padding: 30px 10px;
-  color: white;
-  font-size: 25px;
-  height: 70%;
-  position: relative;
-  z-index: 1;
+  animation: fadeInRight 1s ease-in-out;
 }
 .marketing {
+  width: 100%;
+  height: 100%;
   background-image: linear-gradient(
       rgba(63, 59, 59, 0.5),
       rgba(75, 73, 73, 0.5)
     ),
-    url("../../../images/marketing.jpeg");
+    url("https://res.cloudinary.com/dni5cjwpu/image/upload/v1676404077/metrica/facebook-ads-_sipwqk.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
-  z-index: 1;
-  position: relative;
 }
-
-.card-service-button {
-  display: none;
-  height: 30%;
-  display: flex;
-  margin-left: 30px;
+.web {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+      rgba(63, 59, 59, 0.5),
+      rgba(75, 73, 73, 0.5)
+    ),
+    url("https://res.cloudinary.com/dni5cjwpu/image/upload/v1676404077/metrica/programador_da1cre.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.graphic {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+      rgba(63, 59, 59, 0.5),
+      rgba(75, 73, 73, 0.5)
+    ),
+    url("https://res.cloudinary.com/dni5cjwpu/image/upload/v1676404077/metrica/disenografico_gmlgyr.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.background {
+  transition: 0.5s ease-in-out;
+}
+.service-card:hover > .background {
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+}
+.content-card-service {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width: 90%;
+  left: 5%;
   padding: 10px 0px;
+  text-align: center;
+  height: 100%;
+}
+.title-card {
+  height: 80%;
+}
+.title-card h2 {
   color: white;
 }
-
-.card-service-button a button {
-  background-color: transparent;
-  border: 1px solid white;
-  border-radius: 50%;
-  text-align: center;
-  padding: 1px 3px;
-  margin-left: 10px;
-}
-.web-desing {
-  background-image: linear-gradient(
-      rgba(63, 59, 59, 0.5),
-      rgba(75, 73, 73, 0.5)
-    ),
-    url("../../../images/diseño.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.graphic-design {
-  background-image: linear-gradient(
-      rgba(63, 59, 59, 0.5),
-      rgba(75, 73, 73, 0.5)
-    ),
-    url("../../../images/graphic.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.servicio-title h2 {
+.button-card-service {
   padding: 10px 0px;
 }
+.button-card-service button {
+  padding: 10px 20px;
+  font-size: 15px;
+  background-color: #2dbdff;
+  border: none;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.button-card-service button:hover {
+  background-color: white;
+  border: 1px solid #2dbdff;
+  color: #2dbdff;
+  transition: 0.2s ease-in-out;
+}
 
-@media (max-width: 1080px) {
-  .list-cards-servicios2 {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 95%;
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
   }
-  .servicio-card {
-    width: 95%;
-    margin: 10px 0px;
+  to {
+    opacity: 1;
   }
+}
+.hide {
+  display: none;
+}
+/* Responsive */
+
+@media (max-width: 426px) {
   .servicio-writing {
     width: 90%;
+  }
+  .servicio-writing h3 {
     font-size: 20px;
   }
-  .adorno {
-    display: none;
+  .servicio-writing p {
+    font-size: 18px;
   }
-  .add {
-    display: none;
+  .service-card {
+    width: 90%;
+    margin: 20px 20px;
+    box-shadow: -15px 20px 0px #9c7e83;
+  }
+  .card-service-list {
+    width: 100%;
   }
 }

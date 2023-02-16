@@ -1,92 +1,73 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Servicios3.css";
 const Servicios3 = () => {
+  const [hide, setHide] = useState("hide");
+  const hideOrNotHide = () => {
+    if (document.documentElement.scrollTop > 200) {
+      setHide("service-card");
+    } else {
+      setHide("hide");
+    }
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", hideOrNotHide);
+  });
   return (
     <div className="part-service3">
       <div className="intro-servicio">
         <div className="servicio-writing">
+          <h3>AGENCIA DE MARKETING DIGITAL</h3>
           <p>
-            "La meta del marketing es conocer y entender al cliente tan bien que
-            el producto o servicio se venda solo"
+            Somos una agencia enfocada 100% en acompañarte y colaborar con el
+            éxito de tu negocio innovando y creativizando en los servicios que
+            tenemos para brindarte.
           </p>
         </div>
       </div>
       <div className="servicio-content">
         <div className="servicio-title">
-          <h2>¿Que quieres mi bro?</h2>
-          <h3>Pase nomas al fondo a la derecha</h3>
+          <h1>¿En que podemos ayudarte?</h1>
         </div>
       </div>
-      <div className="Servicio-cards">
-        <div className="list-cards-servicios2">
-          <div className="servicio-card">
-            <div className="add facebook-photo"></div>
-            <div className="add instagram-photo"></div>
-            <div className="add twitter-photo"></div>
-            <div className="adorno likeit"></div>
-            <div className="adorno likeit2"></div>
-            <div className="adorno likeit3"></div>
-            <div className="marketing">
-              <div className="card-service-content">
-                <p>¿Necesitas potenciar su presencia en sus redes sociales?</p>
+      <div className="card-services-container">
+        <div className="card-service-list">
+          <div className={`${hide}`}>
+            <div className="background marketing"></div>
+            <div className="content-card-service">
+              <div className="title-card">
+                <h2>
+                  ¿Necesitas potenciar su presencia en sus redes sociales?
+                </h2>
               </div>
-              <div className="card-service-button">
-                <p>Vea nuestra solucion</p>
-                <a href="/kiko">
-                  <button>
-                    <svg
-                      fill="#ffff"
-                      viewBox="0 0 1024 1024"
-                      width={10}
-                      height={10}
-                    >
-                      <path d="M256 102.4v819.2l512-409.6L256 102.4z" />
-                    </svg>
-                  </button>
-                </a>
+              <div className="button-card-service">
+                <button>Conoce mas</button>
               </div>
             </div>
           </div>
-          <div className="servicio-card web-desing">
-            <div className="card-service-content">
-              <p>¿Quieres tener tu propio sitio web profesional?</p>
+          <div className={`${hide}`}>
+            <div className="background web"></div>
+            <div className="content-card-service">
+              <div className="title-card">
+                <h2>
+                  ¿Necesitas potenciar su presencia en sus redes sociales?
+                </h2>
+              </div>
+              <div className="button-card-service">
+                <button>Conoce mas</button>
+              </div>
             </div>
-            <div className="card-service-button">
-              <p>Vea nuestra solucion</p>
-              <a href="/kiko">
-                <button>
-                  <svg
-                    fill="#ffff"
-                    viewBox="0 0 1024 1024"
-                    width={10}
-                    height={10}
-                  >
-                    <path d="M256 102.4v819.2l512-409.6L256 102.4z" />
-                  </svg>
-                </button>
-              </a>
-            </div>
-          </div>{" "}
-          <div className="servicio-card graphic-design">
-            <div className="card-service-content">
-              <p>¿Buscas una marca que</p>
-              <p> te identifique pero no sabes</p>
-              <p> por donde comenzar?</p>
-            </div>
-            <div className="card-service-button">
-              <p>Vea nuestra solucion</p>
-              <a href="/kiko">
-                <button>
-                  <svg
-                    fill="#ffff"
-                    viewBox="0 0 1024 1024"
-                    width={10}
-                    height={10}
-                  >
-                    <path d="M256 102.4v819.2l512-409.6L256 102.4z" />
-                  </svg>
-                </button>
-              </a>
+          </div>
+          <div className={`${hide}`}>
+            <div className="background graphic"></div>
+            <div className="content-card-service">
+              <div className="title-card">
+                <h2>
+                  ¿Necesitas potenciar su presencia en sus redes sociales?
+                </h2>
+              </div>
+              <div className="button-card-service">
+                <button>Conoce mas</button>
+              </div>
             </div>
           </div>
         </div>

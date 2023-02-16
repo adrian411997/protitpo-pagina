@@ -8,12 +8,54 @@
   bottom: 0;
   z-index: 0;
 }
-.writing.title-writing h1 {
-  color: rgb(3, 54, 61);
+.writing .title-writing h1 {
+  line-height: 2;
 }
 .body-writing {
   color: #174d4d;
 }
 .portada {
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.writing {
+  padding-left: 50px;
+  width: 50% !important;
+}
+.image {
+  width: 90%;
+  margin-top: 100px;
+  text-align: right;
+  margin-left: 50px;
+}
+
+/* Responsive */
+
+@media (max-width: 426px) {
+  .portada {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .writing {
+    text-align: center;
+    width: 100% !important;
+    padding: 0px;
+  }
+  .title-writing {
+    width: 100%;
+    padding: 10px 0px;
+  }
+  .title-writing h1 {
+    font-size: 5px !important;
+    padding: 10px 10px;
+  }
+  .image {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 0px;
+  }
 }
