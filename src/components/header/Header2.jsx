@@ -110,21 +110,6 @@ const Header2 = () => {
               <Link to="/">
                 <li>Inicio</li>
               </Link>
-              {/*
-            <li className="cursos">
-              Cursos
-              <svg width={25} height={25} viewBox="0 0 24 24">
-                <path d="M12,15a1,1,0,0,1-.71-.29l-4-4A1,1,0,0,1,8.71,9.29L12,12.59l3.29-3.29a1,1,0,0,1,1.41,1.41l-4,4A1,1,0,0,1,12,15Z" />
-              </svg>
-              <ul className="submenu">
-                <li>Marketing</li>
-                <li>Programacion</li>
-                <li>Analista de datos</li>
-                <li>UX/UI</li>
-                <li>Videojuegos</li>
-              </ul>
-            </li>
-            */}
               <li className={`plans ${submenuIndicator}`}>
                 {isDesplegado ? (
                   <>

@@ -1,17 +1,28 @@
 import React from "react";
 import Footer from "../../../../Footer/Footer";
-import Header from "../../../../header/Header";
+import Header2 from "../../../../header/Header2";
 import "./Marketing.css";
 import publicidad from "../../../../images/publi.png";
 
 const PlanesMarketing = () => {
   return (
     <>
-      <Header />
+      <Header2 />
       <div className="planes-container">
         <div className="marketing-content">
           <div className="planes-container-title">
-            <h1> Marketing Digital y Social Media</h1>
+            <div className="planes-container-title-content">
+              <h1> Se relevante, indispensable y sobre todo presente</h1>
+              <p>
+                En tiempos actuales, las redes sociales componen una gran parte
+                de nuestras vidas plagado de contenido y anuncios. Le daremos a
+                tu empresa el reconocimiento que se merece con multiples
+                estrategias para que resaltes de entre todos los demás.
+              </p>
+            </div>
+          </div>
+          <div className="planes-marketing-title">
+            <h1>Marketing Digital y Social Media</h1>
           </div>
           <div className="planes-marketing-columns">
             <div className="marketing-columns">
