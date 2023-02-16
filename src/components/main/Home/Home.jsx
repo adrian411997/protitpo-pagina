@@ -6,6 +6,9 @@ import Servicios2 from "./Servicios/Servicios2";
 import Reunion from "./Reunion/Reunion";
 import Portada2 from "./Portada/Portada2";
 import Servicios3 from "./Servicios/Servicios3";
+import GestionMarketin from "./Gestion/GestionMarketin";
+import GestionDesign from "./Gestion/GestionDesign";
+import GestionWeb from "./Gestion/GestionWeb";
 
 const Home = () => {
   //EN ESTE ARCHIVO JUNTAREMOS TODOS LOS COMPONENTES PARA LA PAGINA INICIAL
@@ -13,7 +16,9 @@ const Home = () => {
     <div className="homepage-container">
       <Portada2 />
       <Servicios3 />
-      <Caracteristicas />
+      <GestionMarketin />
+      <GestionDesign />
+      <GestionWeb />
       <Reunion />
       <Footer />
       <div className="icon-whatsapp">
