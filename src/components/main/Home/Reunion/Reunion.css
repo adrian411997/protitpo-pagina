@@ -65,16 +65,20 @@
     justify-content: center;
   }
   .reunion-text h1 {
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
   }
   .reunion-text p {
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
   }
   .reunion {
-    width: 80%;
+    width: 90%;
 
     display: flex;
+  }
+  .reunion-button {
+    margin-top: 20px;
+    width: 200px !important;
   }
 }

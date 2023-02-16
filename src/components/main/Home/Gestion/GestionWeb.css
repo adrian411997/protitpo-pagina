@@ -40,6 +40,24 @@
   color: white;
 }
 /* RESPONSIVE */
+@media (max-width: 1069px) {
+  .gestion-web-container {
+    width: 90%;
+  }
+  .gestion-web-list {
+    width: 100%;
+  }
+  .gestion-web-list > div {
+    width: 45%;
+  }
+  .list-web-icon img {
+    padding-top: 20px;
+    width: 40px !important;
+  }
+  .list-web-icon {
+    padding-right: 10px;
+  }
+}
 @media (max-width: 1000px) {
   .gestion-web-container {
     width: 100%;
