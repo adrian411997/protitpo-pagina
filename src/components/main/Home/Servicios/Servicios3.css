@@ -144,7 +144,25 @@
   display: none;
 }
 /* Responsive */
-
+@media (max-width: 1069px) {
+  .servicio-writing {
+    width: 90%;
+  }
+  .servicio-writing h3 {
+    font-size: 20px;
+  }
+  .servicio-writing p {
+    font-size: 18px;
+  }
+  .service-card {
+    width: 70%;
+    margin: 20px 20px;
+    box-shadow: -15px 20px 0px #9c7e83;
+  }
+  .card-service-list {
+    width: 100%;
+  }
+}
 @media (max-width: 426px) {
   .servicio-writing {
     width: 90%;
@@ -162,5 +180,8 @@
   }
   .card-service-list {
     width: 100%;
+  }
+  .service-card {
+    animation: none;
   }
 }

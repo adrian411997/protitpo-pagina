@@ -1,14 +1,14 @@
 .header {
   display: flex;
   border: none;
-  /*background-color: transparent*/
+
   background-color: rgba(48, 43, 70, 0.42);
   position: fixed;
   top: 0;
   width: 100%;
   align-items: center;
   justify-content: center;
-  z-index: 2;
+  z-index: 3;
   transition: 0.5s ease-in-out;
   padding: 10px 0px;
 }
@@ -201,6 +201,14 @@ p > span {
 /*--------------------------------------------------------------
 # RESPONSIVE
 --------------------------------------------------------------*/
+@media (max-width: 1100px) {
+  .pacentrar {
+    width: 100%;
+  }
+  .pest {
+    width: 55% !important;
+  }
+}
 @media (max-width: 830px) {
   .pest {
     height: 0px;
@@ -407,7 +415,7 @@ p > span {
     font-size: 21px;
   }
   .sticky {
-    background-color: rgb(10, 0, 0);
+    background-color: rgb(34, 8, 18);
     transition: 0.5s ease-in-out;
   }
 }
