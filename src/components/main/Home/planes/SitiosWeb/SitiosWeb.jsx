@@ -1,29 +1,28 @@
 import React from "react";
-import Header from "../../../../header/Header";
+import Header2 from "../../../../header/Header2";
 import Footer from "../../../../Footer/Footer";
 import "./SitiosWeb.css";
 
 const SitiosWeb = () => {
   return (
     <>
-      <Header />
+      <Header2 />
       <div className="site-web-desc">
-        <div className="site-web-title">
-          <img
-            src="https://anunzi.net/wp-content/uploads/2022/03/1_optimized-1024x256.png"
-            alt="siteweb"
-          />
-          <h1>Desarrollo de Sitios Web</h1>
-        </div>
-        <div className="element-content">
-          <div className="element-title">
+        <div className="site-web-portrait">
+          <div className="site-web-title">
+            <h1>Tu pagina es como tu hogar</h1>
             <p>
-              Si buscas la excelencia y experiencia con profesionales llegaste
-              al lugar correcto, nosotros desarrollamos tu sitio web a la medida
-              utilizando la ultima tecnologia en lenguajes de programación con
-              las cuales te proveeremos de:
+              Tener una pagina web no es simplemente textos y numeros, a
+              diferencia de las redes sociales donde compartes tu espacio y
+              compites por la atencion de los usuarios, tu pagina esta centrada
+              todo en ti y en lo que quieres transmitir u ofrecer. Puedes darle
+              el estilo que quieras al fin y al cabo, es tuya y nosotros te
+              ayudaremos a quede tan bien como lo desees
             </p>
           </div>
+        </div>
+        <div className="element-content">
+          <h1>¿QUE TE OFRECEMOS?</h1>
           <div className="elements">
             <div className="element first">
               <img

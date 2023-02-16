@@ -25,8 +25,7 @@
   justify-content: center;
   padding-left: 20px;
 }
-.icon-responsive {
-}
+
 .titulo {
   padding-left: 10px;
   font-size: 20px;
@@ -58,7 +57,7 @@
   display: flex;
   align-items: center;
   margin: 0px 20px;
-  padding: 15px 0px;
+  padding: 20px 0px;
   color: rgb(207, 207, 211);
   display: inline-block;
 }
@@ -66,10 +65,7 @@
   padding-left: 10px;
   color: rgb(207, 207, 211);
 }
-.plans,
-.team {
-  padding: 20px;
-}
+
 .navbar > a > li::after,
 .navbar > li::after,
 .navbar > li > a::after,
@@ -206,7 +202,7 @@ p > span {
     width: 100%;
   }
   .pest {
-    width: 55% !important;
+    width: 100% !important;
   }
 }
 @media (max-width: 830px) {

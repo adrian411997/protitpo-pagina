@@ -8,13 +8,39 @@
   position: relative;
 }
 
+.site-web-portrait {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: linear-gradient(
+      rgba(63, 59, 59, 0.5),
+      rgba(75, 73, 73, 0.5)
+    ),
+    url("https://res.cloudinary.com/dni5cjwpu/image/upload/v1676404077/metrica/programador_da1cre.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
 .site-web-title {
   width: 80%;
-  text-align: center;
-  padding: 10px 0px;
-  margin-top: 100px;
+  color: white;
 }
-
+.site-web-title p {
+  width: 60%;
+  line-height: 2;
+}
+.site-web-title h1 {
+  padding: 20px 0px;
+  color: #90d7f8;
+}
+.element-content h1 {
+  padding: 30px 0px;
+  color: white;
+}
 .element-title {
   text-align: center;
   font-size: 15px;
@@ -25,7 +51,8 @@
 }
 .element-content {
   height: 100%;
-  width: 80%;
+  width: 100%;
+  background-color: #323033;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,7 +69,7 @@
 .element {
   width: 20%;
   padding: 20px 10px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+
   margin: 30px 10px;
   text-align: center;
   border-radius: 1em;
@@ -50,6 +77,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: white;
+  box-shadow: -10px 10px 0px #9c7e83;
+  border-right: 3px solid #f79850;
+  border-top: 3px solid #f79850;
 }
 .element h3 {
   padding: 10px 0px;
@@ -135,10 +166,15 @@
   flex-direction: column;
   width: 25%;
   margin: 10px 20px;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   border-radius: 1em;
+  box-shadow: -30px 30px 0px #9c7e83;
+  border-right: 3px solid #f79850;
+  border-top: 3px solid #f79850;
+
   height: fit-content;
+}
+.site-web-prices-title {
+  padding-top: 25px;
 }
 .site-web-prices-columns {
   display: flex;
@@ -183,7 +219,7 @@
   background-color: white;
 }
 .web-column-title2 {
-  background-color: #19B6AF;
+  background-color: #19b6af;
   color: white;
   padding: 20px 0px;
   border-top-left-radius: 1em;
@@ -196,23 +232,55 @@
   border-top-left-radius: 1em;
   border-top-right-radius: 1em;
 }
-@media (max-width: 830px) {
-  .site-web-title img {
-    display: none;
+@media (max-width: 910px) {
+  .site-web-portrait {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .site-web-title p {
+    width: 100%;
   }
   .element-content {
     width: 100%;
   }
   .elements {
-    flex-direction: column;
+    flex-wrap: wrap;
   }
   .element {
-    width: 90%;
+    width: 40%;
   }
   .site-web-prices-columns {
     flex-direction: column;
   }
   .web-column {
     width: 90%;
+  }
+}
+@media (max-width: 500px) {
+  .site-web-portrait {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .site-web-title p {
+    width: 100%;
+  }
+  .element-content {
+    width: 100%;
+  }
+  .elements {
+    flex-wrap: wrap;
+  }
+  .element {
+    width: 90%;
+  }
+  .site-web-prices-columns {
+    flex-direction: column;
+    align-items: center;
+  }
+  .web-column {
+    width: 100%;
+    margin: 20px 0px;
   }
 }
