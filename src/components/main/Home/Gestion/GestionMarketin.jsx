@@ -18,7 +18,7 @@ const GestionMarketin = () => {
               </svg>
             </div>
             <div className="content-fb">
-              <p className="title-content-fb"> Vender por Facebook </p>
+              <h2 className="title-content-fb"> Vender por Facebook </h2>
               <p className="paragraph-content-fb">
                 Facebook se convirtió en una de las mejores herramientas de
                 marketing digital para lograr ventas y posicionar tu marca. Cada
@@ -36,7 +36,7 @@ const GestionMarketin = () => {
               </svg>
             </div>
             <div className="content-ig">
-              <p className="title-content-ig">Vender por Instagram</p>
+              <h2 className="title-content-ig">Vender por Instagram</h2>
               <p className="paragraph-content-ig">
                 Instagram es una de las redes sociales más portables y visuales
                 que existen en la actualidad. En ella podemos encontrar usuarios

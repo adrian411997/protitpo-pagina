@@ -3,7 +3,7 @@ body {
 }
 @font-face {
   font-family: "CustomFont";
-  src: url("./components/fonts/izmir.otf");
+  src: url("./components/fonts/open.ttf");
 }
 @font-face {
   font-family: "CustomFont2";

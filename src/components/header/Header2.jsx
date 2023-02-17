@@ -11,15 +11,18 @@ const Header2 = () => {
   const [changeBackGround, setChangeBackground] = useState("");
   const [color, setColor] = useState("#000");
   const [justheader, setJustHeader] = useState("");
+  const [espacio, setEspacio] = useState("");
   const changeColor = () => {
     if (document.documentElement.scrollTop > 0) {
       setChangeBackground("sticky");
       setJustHeader("black");
       setColor("#ffff");
+      setEspacio("align");
     } else {
       setChangeBackground("");
       setColor("#000");
       setJustHeader("");
+      setEspacio("");
     }
   };
   useEffect(() => {
@@ -125,7 +128,7 @@ const Header2 = () => {
                 ) : (
                   <>Servicios</>
                 )}
-                <ul className={`submenu ${submenuShowPlans}`}>
+                <ul className={`submenu ${submenuShowPlans} ${espacio}`}>
                   <button onClick={submenuShow} className="back">
                     <img
                       src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1676340396/metrica/pngwing.com_5_kmm4xm.png"
