@@ -1,5 +1,7 @@
 .part-service3 {
-  background: rgb(224, 225, 227);
+  background-image: url("https://res.cloudinary.com/dni5cjwpu/image/upload/v1676661606/metrica/fondo_4_hzjxi9.jpg");
+  background-size: cover;
+  background-position: center;
 }
 .intro-servicio {
   width: 100%;
@@ -25,7 +27,7 @@
 }
 .servicio-title {
   padding-top: 20px;
-  color: #2dbdff;
+  color: black;
   width: 100%;
   text-align: center;
 }
