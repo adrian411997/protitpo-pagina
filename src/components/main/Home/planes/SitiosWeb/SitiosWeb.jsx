@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header2 from "../../../../header/Header2";
 import Footer from "../../../../Footer/Footer";
 import "./SitiosWeb.css";
 
 const SitiosWeb = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Header2 />

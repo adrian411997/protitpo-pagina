@@ -1,35 +1,35 @@
-import React from "react";
-import Header from "../../../../header/Header";
+import React, { useEffect } from "react";
+import Header2 from "../../../../header/Header2";
+import Footer from "../../../../Footer/Footer";
 import "./NuestroEquipo.css";
 const NuestroEquipo = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
-      <Header />
+      <Header2 />
       <div className="intro-container">
         <div className="intro-content">
-          <img
-            src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1673572678/metrica/grupo_gxd2ke.png"
-            alt="grupo"
-            width={500}
-            height={500}
-          />
           <div className="intro-writing">
-            <h1>Nuestro equipo</h1>
-            <p>
-              Profesionales unidos por la misma pasión, creamos y crecemos
-              juntos.
-            </p>
-            <p>
-              Nuestro talento, a su disposicion y nuestros esfuerzos alineado a
-              sus intereses.
-            </p>
-            <button className="know-us">
-              <a href="equipo#members">Conocenos!</a>
-            </button>
+            <h1>
+              LO QUE NECESITAS ES UN <b className="first-topic">EQUIPAZO</b> QUE
+              SE LE JUEGUE POR TI
+            </h1>
           </div>
         </div>
       </div>
       <div className="members" id="members">
+        <div className="memeber-writting">
+          <h1>Una vision y una mision que solo nosotros compartimos</h1>
+          <p>
+            Profesionales unidos por la misma pasión, creamos y crecemos juntos.
+          </p>
+          <p>
+            Nuestro talento, a su disposicion y nuestros esfuerzos alineado a
+            sus intereses.
+          </p>
+        </div>
         <div className="memebers-container">
           <div className="cards">
             <div className="card">
@@ -195,6 +195,7 @@ const NuestroEquipo = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

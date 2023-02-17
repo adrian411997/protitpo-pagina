@@ -6,13 +6,17 @@ const Footer = () => {
     <div className="footer">
       <div className="foot-content-container">
         <div className="footer-content">
+          <div className="column image-column">
+            <img
+              src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1676643397/metrica/LOGO_CON_ESTRELLA_g9wykb.png"
+              alt=""
+              width={200}
+            />
+          </div>
           <div className="column contact-column">
             <div className="contact">
               <div className="place">
                 <span> Estamos en: Argentina, Salta</span>
-              </div>
-              <div className="info-tel">
-                <span>Telefono:+5493874149600</span>
               </div>
               <div className="footer-info-contact">
                 <span>Contactanos: metrica.agenciamkt@gmail.com</span>
