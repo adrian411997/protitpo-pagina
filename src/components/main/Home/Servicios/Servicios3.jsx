@@ -35,9 +35,7 @@ const Servicios3 = () => {
             <div className="background marketing"></div>
             <div className="content-card-service">
               <div className="title-card">
-                <h2>
-                  ¿Necesitas potenciar su presencia en sus redes sociales?
-                </h2>
+                <h2>¿Quieres vender por Facebook y demas redes sociales?</h2>
               </div>
               <div className="button-card-service">
                 <button>Conoce mas</button>
@@ -48,9 +46,7 @@ const Servicios3 = () => {
             <div className="background web"></div>
             <div className="content-card-service">
               <div className="title-card">
-                <h2>
-                  ¿Necesitas potenciar su presencia en sus redes sociales?
-                </h2>
+                <h2>¿Estas en busqueda de tener tu sitio web profesional?</h2>
               </div>
               <div className="button-card-service">
                 <button>Conoce mas</button>
@@ -62,7 +58,8 @@ const Servicios3 = () => {
             <div className="content-card-service">
               <div className="title-card">
                 <h2>
-                  ¿Necesitas potenciar su presencia en sus redes sociales?
+                  ¿Necesitas una identidad corporativa para que te reconozcan
+                  facilmente?
                 </h2>
               </div>
               <div className="button-card-service">

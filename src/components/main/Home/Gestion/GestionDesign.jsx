@@ -85,7 +85,6 @@ const GestionDesign = () => {
           </div>
         </div>
       </div>
-      <h1 className="Fondo">METRICA</h1>
     </div>
   );
 };

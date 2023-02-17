@@ -1,9 +1,12 @@
 .reunion-content {
   color: black;
-  background-color: rgb(225, 225, 225);
+  background-image: url("https://res.cloudinary.com/dni5cjwpu/image/upload/v1676659023/metrica/fondo_3_uia9w7.jpg");
   display: flex;
   align-items: center;
   justify-content: center;
+
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   padding: 30px 0px;
 }
 .reunion {
