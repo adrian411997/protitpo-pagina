@@ -2,9 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("https://res.cloudinary.com/dni5cjwpu/image/upload/v1676661606/metrica/fondo_5_kgvjrb.jpg");
-  background-size: cover;
-  background-position: center;
+  background-color: rgb(225, 225, 225);
   position: relative;
   overflow: hidden;
 }
