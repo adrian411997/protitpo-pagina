@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header2 from "../../../header/Header2";
 import "./Portada2.css";
 
 const Portada2 = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="welcomePart">
       <Header2 />

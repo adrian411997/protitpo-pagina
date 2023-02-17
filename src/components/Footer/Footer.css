@@ -1,9 +1,8 @@
 .footer {
-  background-color: white;
+  background-color: rgb(50, 48, 51);
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.5);
 }
 .foot-content-container {
   width: 80%;
@@ -15,7 +14,7 @@
 }
 .footer-content {
   display: flex;
-  text-align: start;
+
   padding: 50px 0px;
 }
 .footer-id {
@@ -29,7 +28,11 @@
   align-items: center;
   justify-content: center;
 }
+.image-column {
+  border-right: 5px solid white;
+}
 .contact-column {
+  color: white;
 }
 .footer-id-content {
   line-height: 1.6;
@@ -71,4 +74,13 @@
   background-color: white;
   border: none;
   margin: 0px 10px;
+}
+@media (max-width: 600px) {
+  .footer-content {
+    flex-direction: column;
+  }
+  .image-column {
+    border: none;
+    margin-bottom: 20px;
+  }
 }

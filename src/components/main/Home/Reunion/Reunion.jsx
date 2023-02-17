@@ -24,10 +24,10 @@ const Reunion = () => {
           </div>
           <div className="reunion-icon">
             <img
-              src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1676507011/metrica/shutterstock_663289072-Convertido_rjr4ly.png"
+              src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1676643603/metrica/trato_pydqlf.png"
               alt="reunion"
-              width={550}
-              height={300}
+              width={850}
+              height={550}
             />
           </div>
         </div>
